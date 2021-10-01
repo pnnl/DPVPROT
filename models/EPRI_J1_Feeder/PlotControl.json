@@ -1,0 +1,17 @@
+{
+    "PlotTitle":"EPRI J1 Circuit Layout",
+    "source":["FeederHead"],
+    "capacitor":["B4909", "B18941", "B4862", "B4829", "B4877"],
+    "recloser":["B5220", "B4808", "B4760" , "B18858", "B18967"],
+    "fault":["Adj300ft","Adj1mile","Adj2mile", "B24288", "B4806", "B4602", "B4760", "B19052", "B4909", "B5213", "b4541", "B18858", "B19028", "5962929303"],
+    "der":["B51854", "5865228330A", "5890628219", "B4832"],
+    "RelayTimeFile": "",
+    "T400LTimeFile": "",
+    "RelayCircuitName": "J1",
+    "extranodes":{"Adj300ft":{"nclass":"fault", "ndata":{"x": 1596000.0, "y": 14270000.0, "busnum": "ADJ1"}},
+                  "Adj1mile":{"nclass":"fault", "ndata":{"x": 1596000.0, "y": 14265000.0, "busnum": "ADJ2"}},
+                  "B4806":{"nclass":"fault", "ndata":{"x": 1583400.0, "y": 14283500.0, "busnum": "B4806"}},
+                  "B18859":{"nclass":"fault", "ndata":{"x": 1591500.0, "y": 14285200.0, "busnum": "B18859"}},
+                  "Adj2mile":{"nclass":"fault", "ndata":{"x": 1596000.0, "y": 14260000.0, "busnum": "ADJ3"}}}
+}
+

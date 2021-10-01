@@ -1,0 +1,17 @@
+// amps = 1.1 pu * (Pmpp) / sqrt(3) / (0.416 kv)
+new Isource.3P_ExistingSite1 phases=3 bus1=X_5865228330A  angle=0 amps=435  // 285
+new Isource.3P_ExistingSite2 phases=3 bus1=B4832_sec      angle=0 amps=290  // 190
+new Isource.3P_ExistingSite3 phases=3 bus1=5890628219_sec angle=0 amps=1160 // 760
+new Isource.3P_ExistingSite4 phases=3 bus1=B51854_sec2    angle=0 amps=725  // 475
+
+// amps = 1.1 pu * (Pmpp) / (0.24 kv)
+new Isource.C_Existing2  phases=1 bus1=X_B55624_Cust1-C.3     angle=0 amps=50.88 // 11.1
+new Isource.B_Existing3  phases=1 bus1=X_B60964_Cust1-B.2     angle=0 amps=45.83 // 10
+new Isource.C_Existing5  phases=1 bus1=X_B61252_Cust1-C.3     angle=0 amps=91.67 // 20
+new Isource.B_Existing7  phases=1 bus1=X_B4870_Cust1-B.2      angle=0 amps=45.83 // 10
+new Isource.A_Existing9  phases=1 bus1=X_B66452_Cust1-A.1     angle=0 amps=45.83 // 10
+new Isource.C_Existing10 phases=1 bus1=X_B18989_Cust1-C.3     angle=0 amps=45.83 // 10
+new Isource.C_Existing11 phases=1 bus1=X_6039329105_Cust1-C.3 angle=0 amps=45.83 // 10
+new Isource.B_Existing12 phases=1 bus1=X_B41861_Cust1-B.2     angle=0 amps=36.67 // 8
+new Isource.C_Existing13 phases=1 bus1=X_B26203_Cust1-C.3     angle=0 amps=66.46 // 14.5
+

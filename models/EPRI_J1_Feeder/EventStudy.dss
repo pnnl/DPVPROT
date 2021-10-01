@@ -1,0 +1,56 @@
+Clear
+
+Redirect LoadShapes_mod.dss
+Redirect Substation.dss
+Redirect LineCodes.dss
+Redirect Lines.dss
+Redirect Transformers.dss
+Redirect LoadsInd.dss
+Redirect Services.dss
+Redirect Capacitors.dss
+Redirect Regulators.dss
+//Redirect ExistingPV.dss
+//Redirect ExistingPVisource.dss
+
+batchedit regcontrol..* enabled=no
+batchedit capcontrol..* enabled=no
+batchedit load..* model=2
+batchedit pvsystem..* enabled=no
+Redirect ../Test_Hull/AllTCC.dss
+redirect protected_pv.dss
+Redirect UtilityRelays.dss
+
+new monitor.Fdr element=Line.OH_B5218  Terminal=1 residual=yes Mode=32
+new monitor.A   element=Line.OH_B4808  Terminal=1 residual=yes Mode=32
+new monitor.B   element=Line.OH_B4760  Terminal=1 residual=yes Mode=32
+new monitor.C   element=Line.OH_B18859 Terminal=1 residual=yes Mode=32
+new monitor.D   element=Line.OH_B19006 Terminal=1 residual=yes Mode=32
+
+//new monitor.pv1vi element=vccs.pv1 terminal=1 mode=0
+//new monitor.pv1pq element=vccs.pv1 terminal=1 mode=1
+//new monitor.pv1st element=vccs.pv1 terminal=1 mode=3
+//new monitor.pv2vi element=vccs.pv2 terminal=1 mode=0
+//new monitor.pv3vi element=vccs.pv3 terminal=1 mode=0
+//new monitor.pv4vi element=vccs.pv4 terminal=1 mode=0
+
+//new monitor.pv1xf element=Transformer.5865228330A-1ABC Terminal=1 residual=yes Mode=32
+//new monitor.pv2xf element=Transformer.ExistingSite2 Terminal=1 residual=yes Mode=32
+//new monitor.pv3xf element=Transformer.ExistingSite3 Terminal=1 residual=yes Mode=32
+//new monitor.pv4xf element=Transformer.ExistingSite4 Terminal=1 residual=yes Mode=32
+
+set maxiter=100
+
+Set voltagebases=[69, 12.47, 7.2, 0.480, 0.416]
+Calcv
+buscoords buscoords.dss
+
+redirect scripted_fault.dss
+new monitor.flt element=fault.flt mode=32
+set tolerance=0.03
+set mode=dynamic controlmode=time time=(0,0) stepsize=0.004 // number=30000
+// set number = 300
+redirect setnumber.inc
+solve
+export eventlog (events.csv)
+export monitor flt
+export summary

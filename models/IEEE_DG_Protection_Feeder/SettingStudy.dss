@@ -1,0 +1,27 @@
+redirect DG_Prot_Fdr.dss
+new energymeter.feeder element=line.L1 terminal=1
+batchedit regcontrol..* enabled=no
+//redirect protected_pv.dss
+//batchedit load..* model=2
+redirect DistanceRelays.dss
+
+// information for the reduced segment loads
+solve mode=snap
+show powers elem
+show zone feeder
+
+// information for the reduced impedances
+set loadmult=0.01
+
+batchedit regcontrol..* enabled=no
+batchedit capcontrol..* enabled=no
+batchedit recloser..* enabled=no
+batchedit fuse..* enabled=no
+batchedit pvsystem..* enabled=no
+
+solve mode=faultstudy
+export seqz
+export profile
+show buses
+show elements
+

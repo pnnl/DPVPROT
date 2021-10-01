@@ -1,0 +1,10 @@
+redirect Master.dss
+redirect 8500.edits
+
+batchedit regcontrol..* enabled=no
+batchedit capcontrol..* enabled=no
+
+solve mode=faultstudy
+export faults (faults.csv)
+export seqz (seqz.csv)
+

@@ -1,0 +1,11 @@
+// since the reclosers only use one curve, they may be treated as relays
+
+new recloser.Fdr monitoredobj=line.OH_B5218 monitoredterm=1 switchedterm=1
+~ numfast=2 phasefast=104 phasedelayed=117 phasetrip=600 tdphfast=1 tdphdelayed=1 // PhaseInst=3000.0
+~ groundfast=106 grounddelayed=135 groundtrip=300 tdgrfast=1 tdgrdelayed=1
+~ shots=4 recloseintervals=(2, 2, 5)
+new recloser.A like=Fdr monitoredobj=line.OH_B4630 phasetrip=150 groundtrip=100
+new recloser.B like=Fdr monitoredobj=line.OH_B4806 phasetrip=200 groundtrip=150
+new recloser.C like=Fdr monitoredobj=line.OH_B18859 phasetrip=200 groundtrip=150
+new recloser.D like=Fdr monitoredobj=line.OH_B19006 phasetrip=150 groundtrip=100
+

@@ -1,0 +1,1 @@
+new fault.flt bus1=BG.3 phases=1 ontime=0.100 r=0.010 temporary=yes

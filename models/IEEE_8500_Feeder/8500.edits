@@ -1,0 +1,39 @@
+// custom changes go here
+Redirect ../Test_Hull/AllTCC.dss
+redirect fuses.dss
+batchedit fuse..* ratedcurrent=65
+
+//redirect protected_pv.dss
+
+// feeder head recloser and other settings
+new recloser.fdr monitoredobj=line.LN5815900-1 monitoredterm=1 
+~ phasetrip=600 groundtrip=400
+~ numfast=2 shots=4 recloseintervals=(2, 2, 5)
+~ phasefast=104  phasedelayed=117  tdphfast=1 tdphdelayed=1 // PhaseInst=3000.0
+~ groundfast=106 grounddelayed=135 tdgrfast=1 tdgrdelayed=1
+new recloser.a like=fdr monitoredobj=line.LN5799561-1 phasetrip=200 groundtrip=100
+new recloser.b like=fdr monitoredobj=line.LN6350556-2 phasetrip=400 groundtrip=150
+
+New Energymeter.feeder Line.ln5815900-1 1
+Set Maxiterations=20     ! Sometimes the solution takes more than the default 15 iterations
+//Interpolate
+
+set markercode=24
+set marktransformers=no
+
+set reclosermarkercode=26
+set reclosermarkersize=4
+set markreclosers=yes
+
+set markregulators=no
+set markcapacitors=no
+set markfuses=yes
+set fusemarkercode=1
+set fusemarkersize=2
+//set markpvsystems=yes
+set DaisySize=1.5
+
+//Plot Circuit Power Max=5000 dots=n labels=n  C1=Blue  1ph=3   ! $00FF0000
+//plot profile ph=all
+
+

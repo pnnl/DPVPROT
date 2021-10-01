@@ -1,0 +1,2328 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 1,
+        "x": 1584817.0,
+        "y": 14281020.0
+      },
+      "id": "5848128103"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 14,
+        "x": 1580654.0,
+        "y": 14279133.0
+      },
+      "id": "b13923"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 2,
+        "x": 1585114.0,
+        "y": 14285812.0
+      },
+      "id": "5851228580"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 37,
+        "x": 1584321.0,
+        "y": 14287336.0
+      },
+      "id": "b35443"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.3_1",
+          "load.17_1",
+          "load.52_2",
+          "load.63_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 162.55,
+        "kvar": 112.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 53,
+        "x": 1586296.0,
+        "y": 14283721.0
+      },
+      "id": "b4833"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.3_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 0.15,
+        "kvar": -1.15,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 3,
+        "x": 1586522.0,
+        "y": 14283297.0
+      },
+      "id": "5865228330a"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.28_2",
+          "load.59_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 37.55,
+        "kvar": 25.15,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 28,
+        "x": 1589222.0,
+        "y": 14283048.0
+      },
+      "id": "b23208"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 4,
+        "x": 1589069.0,
+        "y": 14282191.0
+      },
+      "id": "5890628219"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.5_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 23.85,
+        "kvar": 17.65,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "a",
+        "busnum": 5,
+        "x": 1591242.0,
+        "y": 14277433.0
+      },
+      "id": "5912527743"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.5_2",
+          "load.33_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 49.8,
+        "kvar": 35.7,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 33,
+        "x": 1594686.0,
+        "y": 14276352.0
+      },
+      "id": "b2630"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 6,
+        "x": 1592350.0,
+        "y": 14282136.0
+      },
+      "id": "5925528209a"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 68,
+        "x": 1597374.0,
+        "y": 14280709.0
+      },
+      "id": "b60868"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "b",
+        "busnum": 7,
+        "x": 1596291.0,
+        "y": 14293037.0
+      },
+      "id": "5962929303"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.39_1",
+          "load.64_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 121.85,
+        "kvar": 84.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "ab",
+        "busnum": 39,
+        "x": 1598786.0,
+        "y": 14296514.0
+      },
+      "id": "b43438"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "b",
+        "busnum": 8,
+        "x": 1596735.0,
+        "y": 14288808.0
+      },
+      "id": "5967328881"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.11_2",
+          "load.20_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 142.5,
+        "kvar": 108.35,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 11,
+        "x": 1602295.0,
+        "y": 14289454.0
+      },
+      "id": "6022828946"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 9,
+        "x": 1598855.0,
+        "y": 14283866.0
+      },
+      "id": "5988528387"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.10_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 0.05,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 10,
+        "x": 1599864.0,
+        "y": 14285415.0
+      },
+      "id": "5998528541"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.10_2",
+          "load.21_2",
+          "load.22_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 28.9,
+        "kvar": 21.6,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 21,
+        "x": 1603345.0,
+        "y": 14290092.0
+      },
+      "id": "b18948"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.11_1",
+          "load.19_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 295.75,
+        "kvar": 217.4,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 19,
+        "x": 1591227.0,
+        "y": 14285035.0
+      },
+      "id": "b18858"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.12_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 49.95,
+        "kvar": 40.6,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "a",
+        "busnum": 12,
+        "x": 1609310.0,
+        "y": 14298881.0
+      },
+      "id": "6093229888"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.12_2",
+          "load.23_1",
+          "load.38_2",
+          "load.65_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 284.2,
+        "kvar": 210.25,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "ab",
+        "busnum": 23,
+        "x": 1607339.0,
+        "y": 14294763.0
+      },
+      "id": "b19028"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.13_1",
+          "load.26_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 23.4,
+        "kvar": 17.55,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 26,
+        "x": 1582702.0,
+        "y": 14284984.0
+      },
+      "id": "b19183"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.13_2",
+          "load.45_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 14.85,
+        "kvar": 10.85,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 13,
+        "x": 1582629.0,
+        "y": 14286470.0
+      },
+      "id": "b13649"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.25_2",
+          "load.62_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 51.65,
+        "kvar": 36.9,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 25,
+        "x": 1580816.0,
+        "y": 14283100.0
+      },
+      "id": "b19052"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 15,
+        "x": 1585968.0,
+        "y": 14284581.0
+      },
+      "id": "b14440"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.18_1",
+          "load.28_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 13.6,
+        "kvar": 9.8,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 54,
+        "x": 1586630.0,
+        "y": 14283806.0
+      },
+      "id": "b4837"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 16,
+        "x": 1576029.0,
+        "y": 14286465.0
+      },
+      "id": "b17991"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.40_1",
+          "load.41_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 110.15,
+        "kvar": 77.65,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 41,
+        "x": 1580151.0,
+        "y": 14288073.0
+      },
+      "id": "b4588"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.17_2",
+          "load.69_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 2.35,
+        "kvar": 2.05,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 17,
+        "x": 1586524.0,
+        "y": 14283781.0
+      },
+      "id": "b18821"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.18_2",
+          "load.19_1",
+          "load.44_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 175.3,
+        "kvar": 125.05,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 18,
+        "x": 1586923.0,
+        "y": 14283882.0
+      },
+      "id": "b18829"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.20_2",
+          "load.21_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 6.7,
+        "kvar": 4.3,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 20,
+        "x": 1602476.0,
+        "y": 14289558.0
+      },
+      "id": "b18941"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.22_2",
+          "load.23_2",
+          "load.48_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 123.75,
+        "kvar": 89.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 22,
+        "x": 1605761.0,
+        "y": 14291572.0
+      },
+      "id": "b18967"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.24_1",
+          "load.46_1",
+          "load.47_1",
+          "load.50_1",
+          "load.54_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 179.8,
+        "kvar": 134.1,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 50,
+        "x": 1583648.0,
+        "y": 14283014.0
+      },
+      "id": "b4808"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.24_2",
+          "load.66_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 39.8,
+        "kvar": 28.6,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 24,
+        "x": 1582135.0,
+        "y": 14282625.0
+      },
+      "id": "b19042"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.25_1",
+          "load.26_1",
+          "load.46_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 93.65,
+        "kvar": 68.5,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 46,
+        "x": 1582721.0,
+        "y": 14284494.0
+      },
+      "id": "b4760"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 27,
+        "x": 1579611.0,
+        "y": 14274603.0
+      },
+      "id": "b22803"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.29_1",
+          "load.60_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 33.6,
+        "kvar": 51.35,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 60,
+        "x": 1595707.0,
+        "y": 14273531.0
+      },
+      "id": "b5213"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.29_2",
+          "load.33_1",
+          "load.58_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 164.5,
+        "kvar": 178.45,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 29,
+        "x": 1593024.0,
+        "y": 14273985.0
+      },
+      "id": "b23283"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "a",
+        "busnum": 30,
+        "x": 1588667.0,
+        "y": 14272180.0
+      },
+      "id": "b23416"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 31,
+        "x": 1570116.0,
+        "y": 14268663.0
+      },
+      "id": "b24288"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.32_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 78.95,
+        "kvar": 56.9,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 32,
+        "x": 1585853.0,
+        "y": 14292073.0
+      },
+      "id": "b24504"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.32_2",
+          "load.42_1",
+          "load.45_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 109.1,
+        "kvar": 78.7,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 45,
+        "x": 1582340.0,
+        "y": 14286653.0
+      },
+      "id": "b4725"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 34,
+        "x": 1596260.0,
+        "y": 14275183.0
+      },
+      "id": "b29921"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 35,
+        "x": 1588448.0,
+        "y": 14290143.0
+      },
+      "id": "b31997"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.36_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 22.7,
+        "kvar": 15.45,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "b",
+        "busnum": 36,
+        "x": 1587439.0,
+        "y": 14282414.0
+      },
+      "id": "b32783"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.36_2",
+          "load.56_1",
+          "load.57_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 62.1,
+        "kvar": 54.95,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 57,
+        "x": 1585337.0,
+        "y": 14281383.0
+      },
+      "id": "b4888"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.38_1",
+          "load.39_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 224.0,
+        "kvar": 163.15,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "ab",
+        "busnum": 38,
+        "x": 1601338.0,
+        "y": 14296001.0
+      },
+      "id": "b41878"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.40_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 87.5,
+        "kvar": 61.85,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 40,
+        "x": 1577206.0,
+        "y": 14292839.0
+      },
+      "id": "b4541"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.41_1",
+          "load.42_2",
+          "load.43_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 59.2,
+        "kvar": 41.9,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 42,
+        "x": 1581406.0,
+        "y": 14287250.0
+      },
+      "id": "b4602"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.43_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 10.5,
+        "kvar": 7.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 43,
+        "x": 1581863.0,
+        "y": 14285908.0
+      },
+      "id": "b4619"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.44_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 17.3,
+        "kvar": 12.1,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 44,
+        "x": 1586394.0,
+        "y": 14284652.0
+      },
+      "id": "b46703"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.47_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 42.05,
+        "kvar": 30.05,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 47,
+        "x": 1581641.0,
+        "y": 14281850.0
+      },
+      "id": "b47668"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.48_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 61.9,
+        "kvar": 43.55,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 48,
+        "x": 1610853.0,
+        "y": 14294851.0
+      },
+      "id": "b47846"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 49,
+        "x": 1589657.0,
+        "y": 14282923.0
+      },
+      "id": "b47983"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.50_2",
+          "load.51_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 45.95,
+        "kvar": 36.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 51,
+        "x": 1585722.0,
+        "y": 14283571.0
+      },
+      "id": "b4829"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.51_2",
+          "load.52_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 0.5,
+        "kvar": 1.45,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 52,
+        "x": 1586158.0,
+        "y": 14283684.0
+      },
+      "id": "b4832"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.54_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 21.55,
+        "kvar": 17.45,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 55,
+        "x": 1584002.0,
+        "y": 14282677.0
+      },
+      "id": "b4862"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.56_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 14.25,
+        "kvar": 13.45,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 56,
+        "x": 1584653.0,
+        "y": 14282049.0
+      },
+      "id": "b4877"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.57_1",
+          "load.58_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 134.35,
+        "kvar": 143.35,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 58,
+        "x": 1586796.0,
+        "y": 14279980.0
+      },
+      "id": "b4909"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.59_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 28.4,
+        "kvar": 19.05,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 59,
+        "x": 1589480.0,
+        "y": 14282558.0
+      },
+      "id": "b51854"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.60_1",
+          "load.61_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 4.65,
+        "kvar": 9.45,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 61,
+        "x": 1596470.0,
+        "y": 14274031.0
+      },
+      "id": "b5220"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.61_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 0.4,
+        "kvar": 1.2,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 72,
+        "x": 1596483.0,
+        "y": 14274173.0
+      },
+      "id": "feederhead"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.62_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 15.1,
+        "kvar": 10.25,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 62,
+        "x": 1577891.0,
+        "y": 14280257.0
+      },
+      "id": "b52275"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.63_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 162.1,
+        "kvar": 112.3,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 63,
+        "x": 1585751.0,
+        "y": 14284320.0
+      },
+      "id": "b56591"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.64_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 69.85,
+        "kvar": 45.55,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "b",
+        "busnum": 64,
+        "x": 1599970.0,
+        "y": 14298111.0
+      },
+      "id": "b56685"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.65_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 22.85,
+        "kvar": 17.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "a",
+        "busnum": 65,
+        "x": 1609536.0,
+        "y": 14294449.0
+      },
+      "id": "b57691"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.66_1"
+        ],
+        "nomkv": 12.47,
+        "kw": 13.65,
+        "kvar": 9.35,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 66,
+        "x": 1582360.0,
+        "y": 14283424.0
+      },
+      "id": "b58809"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "a",
+        "busnum": 67,
+        "x": 1603685.0,
+        "y": 14296960.0
+      },
+      "id": "b59935"
+    },
+    {
+      "ndata": {
+        "shunts": [
+          "load.69_2"
+        ],
+        "nomkv": 12.47,
+        "kw": 2.2,
+        "kvar": 1.55,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 69,
+        "x": 1586793.0,
+        "y": 14283459.0
+      },
+      "id": "b61161"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "abc",
+        "busnum": 70,
+        "x": 1586472.0,
+        "y": 14283833.0
+      },
+      "id": "b61423"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 71,
+        "x": 1595407.0,
+        "y": 14289659.0
+      },
+      "id": "b63378"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "a",
+        "busnum": 73,
+        "x": 1579485.0,
+        "y": 14293019.0
+      },
+      "id": "g36748"
+    },
+    {
+      "ndata": {
+        "shunts": [],
+        "nomkv": 0.0,
+        "kw": 0.0,
+        "kvar": 0.0,
+        "capkvar": 0.0,
+        "derkva": 0.0,
+        "source": false,
+        "phases": "c",
+        "busnum": 74,
+        "x": 1591994.0,
+        "y": 14282349.0
+      },
+      "id": "g42394"
+    }
+  ],
+  "links": [
+    {
+      "eclass": "line",
+      "ename": "1",
+      "edata": {
+        "len": 0.0,
+        "phases": "C"
+      },
+      "source": "5848128103",
+      "target": "b13923"
+    },
+    {
+      "eclass": "line",
+      "ename": "14",
+      "edata": {
+        "len": 6.87837,
+        "phases": "C"
+      },
+      "source": "b13923",
+      "target": "b19052"
+    },
+    {
+      "eclass": "line",
+      "ename": "27",
+      "edata": {
+        "len": 0.0,
+        "phases": "C"
+      },
+      "source": "b13923",
+      "target": "b22803"
+    },
+    {
+      "eclass": "line",
+      "ename": "2",
+      "edata": {
+        "len": 0.0,
+        "phases": "C"
+      },
+      "source": "5851228580",
+      "target": "b35443"
+    },
+    {
+      "eclass": "line",
+      "ename": "37",
+      "edata": {
+        "len": 6.69824,
+        "phases": "C"
+      },
+      "source": "b35443",
+      "target": "b13649"
+    },
+    {
+      "eclass": "line",
+      "ename": "71",
+      "edata": {
+        "len": 0.0,
+        "phases": "C"
+      },
+      "source": "b35443",
+      "target": "b63378"
+    },
+    {
+      "eclass": "line",
+      "ename": "3",
+      "edata": {
+        "r1": 0.12398,
+        "x1": 0.07856,
+        "r0": 0.19871,
+        "x0": 0.1698,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.17373,
+        "phases": "ABC"
+      },
+      "source": "b4833",
+      "target": "5865228330a"
+    },
+    {
+      "eclass": "line",
+      "ename": "17",
+      "edata": {
+        "r1": 0.01376,
+        "x1": 0.02672,
+        "r0": 0.05728,
+        "x0": 0.07204,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.07864,
+        "phases": "ABC"
+      },
+      "source": "b4833",
+      "target": "b18821"
+    },
+    {
+      "eclass": "line",
+      "ename": "52",
+      "edata": {
+        "r1": 0.00716,
+        "x1": 0.01311,
+        "r0": 0.02944,
+        "x0": 0.03288,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.04024,
+        "phases": "ABC"
+      },
+      "source": "b4833",
+      "target": "b4832"
+    },
+    {
+      "eclass": "line",
+      "ename": "63",
+      "edata": {
+        "r1": 0.21159,
+        "x1": 0.12085,
+        "r0": 0.30444,
+        "x0": 0.37679,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.24932,
+        "phases": "ABC"
+      },
+      "source": "b4833",
+      "target": "b56591"
+    },
+    {
+      "eclass": "line",
+      "ename": "4",
+      "edata": {
+        "r1": 0.15661,
+        "x1": 0.14118,
+        "r0": 0.25944,
+        "x0": 0.38941,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.28347,
+        "phases": "ABC"
+      },
+      "source": "b23208",
+      "target": "5890628219"
+    },
+    {
+      "eclass": "line",
+      "ename": "28",
+      "edata": {
+        "r1": 0.70762,
+        "x1": 0.35589,
+        "r0": 1.08207,
+        "x0": 1.07058,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.82784,
+        "phases": "ABC"
+      },
+      "source": "b23208",
+      "target": "b4837"
+    },
+    {
+      "eclass": "line",
+      "ename": "49",
+      "edata": {
+        "r1": 0.11756,
+        "x1": 0.06383,
+        "r0": 0.17435,
+        "x0": 0.1963,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.13808,
+        "phases": "ABC"
+      },
+      "source": "b23208",
+      "target": "b47983"
+    },
+    {
+      "eclass": "line",
+      "ename": "59",
+      "edata": {
+        "r1": 0.2312,
+        "x1": 0.12578,
+        "r0": 0.34315,
+        "x0": 0.38748,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.27127,
+        "phases": "ABC"
+      },
+      "source": "b23208",
+      "target": "b51854"
+    },
+    {
+      "eclass": "line",
+      "ename": "5",
+      "edata": {
+        "len": 2.45638,
+        "phases": "A"
+      },
+      "source": "5912527743",
+      "target": "b2630"
+    },
+    {
+      "eclass": "line",
+      "ename": "33",
+      "edata": {
+        "r1": 0.10962,
+        "x1": 0.34618,
+        "r0": 0.30313,
+        "x0": 1.11189,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.88453,
+        "phases": "ABC"
+      },
+      "source": "b2630",
+      "target": "b23283"
+    },
+    {
+      "eclass": "line",
+      "ename": "68",
+      "edata": {
+        "len": 2.45638,
+        "phases": "C"
+      },
+      "source": "b2630",
+      "target": "b60868"
+    },
+    {
+      "eclass": "line",
+      "ename": "6",
+      "edata": {
+        "len": 0.0,
+        "phases": "C"
+      },
+      "source": "5925528209a",
+      "target": "b60868"
+    },
+    {
+      "eclass": "line",
+      "ename": "9",
+      "edata": {
+        "len": 0.0,
+        "phases": "C"
+      },
+      "source": "b60868",
+      "target": "5988528387"
+    },
+    {
+      "eclass": "line",
+      "ename": "7",
+      "edata": {
+        "len": 0.0,
+        "phases": "B"
+      },
+      "source": "5962929303",
+      "target": "b43438"
+    },
+    {
+      "eclass": "line",
+      "ename": "39",
+      "edata": {
+        "r1": 0.66059,
+        "x1": 0.39523,
+        "r0": 0.9228,
+        "x0": 1.0367,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.0,
+        "phases": "AB"
+      },
+      "source": "b43438",
+      "target": "b41878"
+    },
+    {
+      "eclass": "line",
+      "ename": "64",
+      "edata": {
+        "len": 0.0,
+        "phases": "B"
+      },
+      "source": "b43438",
+      "target": "b56685"
+    },
+    {
+      "eclass": "line",
+      "ename": "8",
+      "edata": {
+        "len": 11.6207,
+        "phases": "B"
+      },
+      "source": "5967328881",
+      "target": "6022828946"
+    },
+    {
+      "eclass": "line",
+      "ename": "11",
+      "edata": {
+        "r1": 2.42239,
+        "x1": 1.63709,
+        "r0": 4.52066,
+        "x0": 4.11966,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 3.70875,
+        "phases": "ABC"
+      },
+      "source": "6022828946",
+      "target": "b18858"
+    },
+    {
+      "eclass": "line",
+      "ename": "20",
+      "edata": {
+        "r1": 0.05825,
+        "x1": 0.02402,
+        "r0": 0.1008,
+        "x0": 0.0695,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.0671,
+        "phases": "ABC"
+      },
+      "source": "6022828946",
+      "target": "b18941"
+    },
+    {
+      "eclass": "line",
+      "ename": "10",
+      "edata": {
+        "len": 12.0026,
+        "phases": "C"
+      },
+      "source": "5998528541",
+      "target": "b18948"
+    },
+    {
+      "eclass": "line",
+      "ename": "21",
+      "edata": {
+        "r1": 0.23474,
+        "x1": 0.11777,
+        "r0": 0.3095,
+        "x0": 0.2852,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.3148,
+        "phases": "ABC"
+      },
+      "source": "b18948",
+      "target": "b18941"
+    },
+    {
+      "eclass": "line",
+      "ename": "22",
+      "edata": {
+        "r1": 0.65279,
+        "x1": 0.33845,
+        "r0": 0.8703,
+        "x0": 0.8546,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.8644,
+        "phases": "ABC"
+      },
+      "source": "b18948",
+      "target": "b18967"
+    },
+    {
+      "eclass": "line",
+      "ename": "19",
+      "edata": {
+        "r1": 0.71377,
+        "x1": 0.58678,
+        "r0": 1.33302,
+        "x0": 1.5021,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 1.36672,
+        "phases": "ABC"
+      },
+      "source": "b18858",
+      "target": "b18829"
+    },
+    {
+      "eclass": "line",
+      "ename": "12",
+      "edata": {
+        "len": 0.0,
+        "phases": "A"
+      },
+      "source": "6093229888",
+      "target": "b19028"
+    },
+    {
+      "eclass": "line",
+      "ename": "23",
+      "edata": {
+        "r1": 1.25273,
+        "x1": 0.96227,
+        "r0": 1.8925,
+        "x0": 1.9543,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 12.867,
+        "phases": "AB"
+      },
+      "source": "b19028",
+      "target": "b18967"
+    },
+    {
+      "eclass": "line",
+      "ename": "38",
+      "edata": {
+        "r1": 1.38201,
+        "x1": 0.78243,
+        "r0": 1.8344,
+        "x0": 1.8314,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.0,
+        "phases": "AB"
+      },
+      "source": "b19028",
+      "target": "b41878"
+    },
+    {
+      "eclass": "line",
+      "ename": "65",
+      "edata": {
+        "len": 0.0,
+        "phases": "A"
+      },
+      "source": "b19028",
+      "target": "b57691"
+    },
+    {
+      "eclass": "line",
+      "ename": "13",
+      "edata": {
+        "r1": 0.05852,
+        "x1": 0.17168,
+        "r0": 0.18827,
+        "x0": 0.54346,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.45629,
+        "phases": "ABC"
+      },
+      "source": "b19183",
+      "target": "b13649"
+    },
+    {
+      "eclass": "line",
+      "ename": "26",
+      "edata": {
+        "r1": 0.01965,
+        "x1": 0.05722,
+        "r0": 0.05599,
+        "x0": 0.17393,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.1527,
+        "phases": "ABC"
+      },
+      "source": "b19183",
+      "target": "b4760"
+    },
+    {
+      "eclass": "line",
+      "ename": "45",
+      "edata": {
+        "r1": 0.01333,
+        "x1": 0.04006,
+        "r0": 0.04746,
+        "x0": 0.13262,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.10515,
+        "phases": "ABC"
+      },
+      "source": "b13649",
+      "target": "b4725"
+    },
+    {
+      "eclass": "line",
+      "ename": "25",
+      "edata": {
+        "r1": 0.66847,
+        "x1": 0.38052,
+        "r0": 0.96222,
+        "x0": 1.18225,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.78912,
+        "phases": "ABC"
+      },
+      "source": "b19052",
+      "target": "b4760"
+    },
+    {
+      "eclass": "line",
+      "ename": "62",
+      "edata": {
+        "len": 6.87837,
+        "phases": "C"
+      },
+      "source": "b19052",
+      "target": "b52275"
+    },
+    {
+      "eclass": "line",
+      "ename": "15",
+      "edata": {
+        "len": 6.45744,
+        "phases": "C"
+      },
+      "source": "b14440",
+      "target": "b4837"
+    },
+    {
+      "eclass": "line",
+      "ename": "18",
+      "edata": {
+        "r1": 0.01373,
+        "x1": 0.03151,
+        "r0": 0.05428,
+        "x0": 0.09398,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.08779,
+        "phases": "ABC"
+      },
+      "source": "b4837",
+      "target": "b18829"
+    },
+    {
+      "eclass": "line",
+      "ename": "53",
+      "edata": {
+        "r1": 0.00575,
+        "x1": 0.01124,
+        "r0": 0.02401,
+        "x0": 0.03045,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.03291,
+        "phases": "ABC"
+      },
+      "source": "b4837",
+      "target": "b18821"
+    },
+    {
+      "eclass": "line",
+      "ename": "16",
+      "edata": {
+        "len": 7.60654,
+        "phases": "C"
+      },
+      "source": "b17991",
+      "target": "b4588"
+    },
+    {
+      "eclass": "line",
+      "ename": "40",
+      "edata": {
+        "r1": 0.9242,
+        "x1": 0.79857,
+        "r0": 1.56621,
+        "x0": 2.56093,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 1.70414,
+        "phases": "ABC"
+      },
+      "source": "b4588",
+      "target": "b4541"
+    },
+    {
+      "eclass": "line",
+      "ename": "41",
+      "edata": {
+        "r1": 0.2174,
+        "x1": 0.20714,
+        "r0": 0.38659,
+        "x0": 0.66387,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.46055,
+        "phases": "ABC"
+      },
+      "source": "b4588",
+      "target": "b4602"
+    },
+    {
+      "eclass": "line",
+      "ename": "69",
+      "edata": {
+        "r1": 0.11037,
+        "x1": 0.06366,
+        "r0": 0.15888,
+        "x0": 0.19962,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.12954,
+        "phases": "ABC"
+      },
+      "source": "b18821",
+      "target": "b61161"
+    },
+    {
+      "eclass": "line",
+      "ename": "70",
+      "edata": {
+        "r1": 0.01822,
+        "x1": 0.01056,
+        "r0": 0.02625,
+        "x0": 0.03322,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.02133,
+        "phases": "ABC"
+      },
+      "source": "b18821",
+      "target": "b61423"
+    },
+    {
+      "eclass": "line",
+      "ename": "44",
+      "edata": {
+        "r1": 0.24301,
+        "x1": 0.13951,
+        "r0": 0.34384,
+        "x0": 0.43356,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.28407,
+        "phases": "ABC"
+      },
+      "source": "b18829",
+      "target": "b46703"
+    },
+    {
+      "eclass": "line",
+      "ename": "48",
+      "edata": {
+        "len": 12.867,
+        "phases": "C"
+      },
+      "source": "b18967",
+      "target": "b47846"
+    },
+    {
+      "eclass": "line",
+      "ename": "24",
+      "edata": {
+        "r1": 0.40688,
+        "x1": 0.2346,
+        "r0": 0.58595,
+        "x0": 0.7358,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.47762,
+        "phases": "ABC"
+      },
+      "source": "b4808",
+      "target": "b19042"
+    },
+    {
+      "eclass": "line",
+      "ename": "46",
+      "edata": {
+        "r1": 0.07172,
+        "x1": 0.20177,
+        "r0": 0.20572,
+        "x0": 0.60114,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.54834,
+        "phases": "ABC"
+      },
+      "source": "b4808",
+      "target": "b4760"
+    },
+    {
+      "eclass": "line",
+      "ename": "47",
+      "edata": {
+        "r1": 0.73226,
+        "x1": 0.42302,
+        "r0": 1.04485,
+        "x0": 1.31719,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.85893,
+        "phases": "ABC"
+      },
+      "source": "b4808",
+      "target": "b47668"
+    },
+    {
+      "eclass": "line",
+      "ename": "50",
+      "edata": {
+        "r1": 0.11672,
+        "x1": 0.20892,
+        "r0": 0.4942,
+        "x0": 0.54707,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.62758,
+        "phases": "ABC"
+      },
+      "source": "b4808",
+      "target": "b4829"
+    },
+    {
+      "eclass": "line",
+      "ename": "54",
+      "edata": {
+        "r1": 0.02848,
+        "x1": 0.04473,
+        "r0": 0.10441,
+        "x0": 0.09634,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.14722,
+        "phases": "ABC"
+      },
+      "source": "b4808",
+      "target": "b4862"
+    },
+    {
+      "eclass": "line",
+      "ename": "66",
+      "edata": {
+        "len": 6.01853,
+        "phases": "C"
+      },
+      "source": "b19042",
+      "target": "b58809"
+    },
+    {
+      "eclass": "line",
+      "ename": "31",
+      "edata": {
+        "len": 0.0,
+        "phases": "C"
+      },
+      "source": "b22803",
+      "target": "b24288"
+    },
+    {
+      "eclass": "line",
+      "ename": "29",
+      "edata": {
+        "r1": 0.22388,
+        "x1": 0.44063,
+        "r0": 0.61492,
+        "x0": 1.35274,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 1.2384,
+        "phases": "ABC"
+      },
+      "source": "b5213",
+      "target": "b23283"
+    },
+    {
+      "eclass": "line",
+      "ename": "34",
+      "edata": {
+        "len": 0.33345,
+        "phases": "C"
+      },
+      "source": "b5213",
+      "target": "b29921"
+    },
+    {
+      "eclass": "line",
+      "ename": "60",
+      "edata": {
+        "r1": 0.04895,
+        "x1": 0.10193,
+        "r0": 0.10968,
+        "x0": 0.31426,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.28255,
+        "phases": "ABC"
+      },
+      "source": "b5213",
+      "target": "b5220"
+    },
+    {
+      "eclass": "line",
+      "ename": "30",
+      "edata": {
+        "len": 1.57185,
+        "phases": "A"
+      },
+      "source": "b23283",
+      "target": "b23416"
+    },
+    {
+      "eclass": "line",
+      "ename": "58",
+      "edata": {
+        "r1": 0.52262,
+        "x1": 0.92222,
+        "r0": 1.82945,
+        "x0": 2.6391,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 2.635,
+        "phases": "ABC"
+      },
+      "source": "b23283",
+      "target": "b4909"
+    },
+    {
+      "eclass": "line",
+      "ename": "32",
+      "edata": {
+        "len": 6.80339,
+        "phases": "C"
+      },
+      "source": "b24504",
+      "target": "b4725"
+    },
+    {
+      "eclass": "line",
+      "ename": "35",
+      "edata": {
+        "len": 0.0,
+        "phases": "C"
+      },
+      "source": "b24504",
+      "target": "b31997"
+    },
+    {
+      "eclass": "line",
+      "ename": "42",
+      "edata": {
+        "r1": 0.04289,
+        "x1": 0.13224,
+        "r0": 0.16398,
+        "x0": 0.45992,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.3426,
+        "phases": "ABC"
+      },
+      "source": "b4725",
+      "target": "b4602"
+    },
+    {
+      "eclass": "line",
+      "ename": "36",
+      "edata": {
+        "len": 4.82651,
+        "phases": "B"
+      },
+      "source": "b32783",
+      "target": "b4888"
+    },
+    {
+      "eclass": "line",
+      "ename": "56",
+      "edata": {
+        "r1": 0.05956,
+        "x1": 0.09408,
+        "r0": 0.22838,
+        "x0": 0.23031,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.28864,
+        "phases": "ABC"
+      },
+      "source": "b4888",
+      "target": "b4877"
+    },
+    {
+      "eclass": "line",
+      "ename": "57",
+      "edata": {
+        "r1": 0.12584,
+        "x1": 0.20309,
+        "r0": 0.47178,
+        "x0": 0.50951,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.61966,
+        "phases": "ABC"
+      },
+      "source": "b4888",
+      "target": "b4909"
+    },
+    {
+      "eclass": "line",
+      "ename": "67",
+      "edata": {
+        "len": 0.0,
+        "phases": "A"
+      },
+      "source": "b41878",
+      "target": "b59935"
+    },
+    {
+      "eclass": "line",
+      "ename": "72",
+      "edata": {
+        "len": 9.31068,
+        "phases": "A"
+      },
+      "source": "b4541",
+      "target": "g36748"
+    },
+    {
+      "eclass": "line",
+      "ename": "43",
+      "edata": {
+        "r1": 0.36815,
+        "x1": 0.26046,
+        "r0": 0.56131,
+        "x0": 0.81533,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.54132,
+        "phases": "ABC"
+      },
+      "source": "b4602",
+      "target": "b4619"
+    },
+    {
+      "eclass": "line",
+      "ename": "73",
+      "edata": {
+        "len": 7.42336,
+        "phases": "C"
+      },
+      "source": "b47983",
+      "target": "g42394"
+    },
+    {
+      "eclass": "line",
+      "ename": "51",
+      "edata": {
+        "r1": 0.02455,
+        "x1": 0.04406,
+        "r0": 0.10053,
+        "x0": 0.10769,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.13716,
+        "phases": "ABC"
+      },
+      "source": "b4829",
+      "target": "b4832"
+    },
+    {
+      "eclass": "line",
+      "ename": "55",
+      "edata": {
+        "r1": 0.12726,
+        "x1": 0.21042,
+        "r0": 0.3557,
+        "x0": 0.43083,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.27854,
+        "phases": "ABC"
+      },
+      "source": "b4862",
+      "target": "b4877"
+    },
+    {
+      "eclass": "line",
+      "ename": "61",
+      "edata": {
+        "r1": 0.00876,
+        "x1": 0.01862,
+        "r0": 0.02217,
+        "x0": 0.05959,
+        "c1": 0.01965,
+        "c0": 0.01658,
+        "len": 0.0509,
+        "phases": "ABC"
+      },
+      "source": "b5220",
+      "target": "feederhead"
+    }
+  ]
+}

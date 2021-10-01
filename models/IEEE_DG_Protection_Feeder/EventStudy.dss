@@ -1,0 +1,18 @@
+redirect DG_Prot_Fdr.dss
+redirect protected_pv.dss
+batchedit regcontrol..* enabled=no
+batchedit load..* model=2
+redirect UtilityRelays.dss
+
+//new monitor.pvvi element=vccs.pv terminal=1 mode=0
+//new monitor.pvpq element=vccs.pv terminal=1 mode=1
+//new monitor.pvst element=vccs.pv terminal=1 mode=3
+
+redirect scripted_fault.dss
+new monitor.flt element=fault.flt mode=32
+set tolerance=0.02
+set mode=dynamic controlmode=time time=(0,0) stepsize=0.001 number=30000
+solve
+export eventlog (events.csv)
+export monitor flt
+export summary

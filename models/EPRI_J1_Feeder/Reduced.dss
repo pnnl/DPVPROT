@@ -1,0 +1,65 @@
+clear
+
+Redirect LoadShapes_mod.dss
+
+New Circuit.J1  pu=0.97 r1=1.376 x1=14.257 r0=0.001 x0=8.203 bus1=S basekv=69
+New Transformer.SubXfmr phases=3 windings=2 buses=(S,LS_Bus) conns=(wye,wye) 
+~ kvs=(68.8,13.09) kvas=(16000,16000) numtaps=16
+~ xhl=11.63 wdg=1 %r=0.596 wdg=2 %r=0.596
+~ ppm_antifloat=5
+New regcontrol.SubXfmr transformer=SubXfmr vreg=124 winding=2 band=2 PTratio=60 Delay=90 tapdelay=30 
+New line.temp_sub bus1=LS_Bus bus2=Fdr_Bus switch=yes enabled=yes phases=3 normamps=99999 emergamps=99999
+New Load.Aggregate_Load phases=3 bus=LS_Bus.1.2.3 kV=12.47 kW=5000 pf=-0.98 status=variable mode=4 CVRwatts=0.8 CVRvars=3 class=1 numcust=1 yearly=AggLoadProfile
+
+New line.Feeder bus1=Fdr_Bus bus2=FeederHead switch=yes enabled=yes phases=3 normamps=99999 emergamps=99999
+new energymeter.feeder element=line.feeder terminal=1
+
+redirect ReducedNetwork.dss
+redirect ReducedCapacitors.dss
+
+Redirect ../Test_Hull/AllTCC.dss
+new recloser.Fdr monitoredobj=line.60 monitoredterm=1 switchedterm=1
+~ numfast=2 phasefast=104 phasedelayed=117 phasetrip=600 tdphfast=1 tdphdelayed=1 // PhaseInst=3000.0
+~ groundfast=106 grounddelayed=135 groundtrip=300 tdgrfast=1 tdgrdelayed=1
+~ shots=4 recloseintervals=(2, 2, 5)
+new recloser.A like=Fdr monitoredobj=line.54 monitoredterm=2 switchedterm=2 phasetrip=400 groundtrip=200
+new recloser.B like=Fdr monitoredobj=line.46 monitoredterm=2 switchedterm=2 phasetrip=200 groundtrip=150
+new recloser.C like=Fdr monitoredobj=line.19 monitoredterm=2 switchedterm=2 phasetrip=200 groundtrip=150
+new recloser.D like=Fdr monitoredobj=line.22 monitoredterm=2 switchedterm=2 phasetrip=150 groundtrip=100
+
+new energymeter.Fdr element=line.60 terminal=1
+new energymeter.A   element=line.54 terminal=1
+new energymeter.B   element=line.46 terminal=2
+new energymeter.C   element=line.19 terminal=2
+new energymeter.D   element=line.22 terminal=2
+
+new transformer.pv1 phases=3 windings=2 buses=(B51854, PV1) conns=(wye,wye) kVs=(12.47,0.416) kVAs=(300,300) xhl=5.75 %R=0.5
+new transformer.pv2 phases=3 windings=2 buses=(5865228330A, PV2) conns=(wye,wye) kVs=(12.47,0.416) kVAs=(250,250) xhl=5.75 %R=0.5
+new transformer.pv3 phases=3 windings=2 buses=(5890628219, PV3) conns=(wye,wye) kVs=(12.47,0.416) kVAs=(1000,1000) xhl=5.75 %R=0.5
+new transformer.pv4 phases=3 windings=2 buses=(B4832, PV4) conns=(wye,wye) kVs=(12.47,0.416) kVAs=(500,500) xhl=5.75 %R=0.5
+
+New XYcurve.z_pll npts=3 xarray=[1.0000 -1.98515 0.98531] yarray=[0.0000 0.01485 -0.01469]
+new vccs.Pv1 Phases=3 Bus1=PV1 Prated=285000.00 Vrated=416.00 Ppct=100.00
+~ filter='z_pll' fsample=10000 rmsmode=true imaxpu=1.15 vrmstau=0.01 irmstau=0.05
+new vccs.Pv2 Phases=3 Bus1=PV2 Prated=190000.00 Vrated=416.00 Ppct=100.00
+~ filter='z_pll' fsample=10000 rmsmode=true imaxpu=1.15 vrmstau=0.01 irmstau=0.05
+new vccs.Pv3 Phases=3 Bus1=PV3 Prated=760000.00 Vrated=416.00 Ppct=100.00
+~ filter='z_pll' fsample=10000 rmsmode=true imaxpu=1.15 vrmstau=0.01 irmstau=0.05
+new vccs.Pv4 Phases=3 Bus1=PV4 Prated=475000.00 Vrated=416.00 Ppct=100.00
+~ filter='z_pll' fsample=10000 rmsmode=true imaxpu=1.15 vrmstau=0.01 irmstau=0.05
+
+new relay.pv_Pv1 monitoredobj=vccs.Pv1 switchedobj=vccs.Pv1
+~  monitoredterm=1 switchedterm=1 type=voltage shots=1 delay=0.0
+~  kvbase=0.416 overvoltcurve=ov1547_2 undervoltcurve=uv1547_2
+new relay.pv_Pv2 like=pv_Pv1 monitoredobj=vccs.Pv2 switchedobj=vccs.Pv2
+new relay.pv_Pv3 like=pv_Pv1 monitoredobj=vccs.Pv3 switchedobj=vccs.Pv3
+new relay.pv_Pv4 like=pv_Pv1 monitoredobj=vccs.Pv4 switchedobj=vccs.Pv4
+
+//edit vsource.source pu=1.04
+
+Set voltagebases=[69, 12.47, 0.416]
+CalcVoltageBases
+
+buscoords ReducedXY.dss
+
+//set loadmult=2.30

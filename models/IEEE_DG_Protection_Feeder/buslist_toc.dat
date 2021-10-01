@@ -1,0 +1,8 @@
+B1,ABC,15,Relay.pv_pv,Relay.a
+BM,ABC,15,Relay.pv_pv,Relay.a
+B2,ABC,15,Relay.pv_pv,Relay.a
+BT,ABC,15,Relay.pv_pv,Relay.b
+LAT1,A,15,Relay.pv_pv,Fuse.f1
+LAT2,A,15,Relay.pv_pv,Fuse.f2
+BP,ABC,15,Relay.d
+BG,ABC,0.2,Relay.pv_pv,Relay.b

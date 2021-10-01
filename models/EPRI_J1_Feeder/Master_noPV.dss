@@ -1,0 +1,63 @@
+!EPRI Feeder J1, OpenDSS
+! This Circuit model is provided to the public by EPRI (Electric Power Research Institute) as part of the Distributed Renewables Research Program (P174).
+! Please feel free to use this circuit model for further research/study. 
+! For reference purposes, please use: EPRI Feeder J1, Distributed PV (DPV) Monitoring and Feeder Analysis, dpv.epri.com, 2013
+Clear
+
+Redirect LoadShapes_mod.dss
+Redirect Substation.dss
+Redirect LineCodes.dss
+Redirect Lines.dss
+Redirect Transformers.dss
+Redirect LoadsInd.dss
+Redirect Services.dss
+Redirect Capacitors.dss
+Redirect Regulators.dss
+Redirect ExistingPV.dss
+
+Redirect ../Test_Hull/AllTCC.dss
+Redirect UtilityRelays.dss
+//Redirect OriginalReclosers.dss
+
+set maxiter=100
+set maxcontroliter=100
+
+edit transformer.subxfmr sub=yes subname=EPRI_J1
+
+edit transformer.5865228330A-1ABC  sub=yes subname=PVA
+edit transformer.ExistingSite2  sub=yes subname=PVB
+edit transformer.ExistingSite3  sub=yes subname=PVC
+edit transformer.ExistingSite4  sub=yes subname=PVD
+
+edit transformer.B55624-1C  sub=yes subname=pv1
+edit transformer.B60964-1B  sub=yes subname=pv2
+edit transformer.B61252-1C  sub=yes subname=pv3
+edit transformer.B4870-1B   sub=yes subname=pv4
+edit transformer.B66452-1A  sub=yes subname=pv5
+edit transformer.B18989-1C  sub=yes subname=pv6
+edit transformer.6039329105-1C sub=yes subname=pv7
+edit transformer.B41861-1B  sub=yes subname=pv8
+edit transformer.B26203-1C  sub=yes subname=pv9
+
+Set voltagebases=[69, 12.47, 7.2, 0.480, 0.416]
+Calcv
+Solve
+redirect monitors.dss
+
+Buscoords Buscoords.dss
+
+set markercode=24
+set markregulators=no
+
+set reclosermarkercode=26
+set reclosermarkersize=2
+set markreclosers=yes
+
+//plot circuit power 1ph=3
+
+solve
+//plot profile phases=all
+
+set DaisySize=0.5
+//plot daisy power max=2000 subs=yes buslist=(file=PVbuses.dat)
+

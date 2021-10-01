@@ -1,0 +1,9 @@
+batchedit recloser..* enable=no
+
+new relay.Fdr monitoredobj=line.LN5815900-1 monitoredterm=1 switchedterm=1
+~ phasecurve=104 phasetrip=600 tdphase=1
+~ groundcurve=106 groundtrip=400 tdground=1
+~ shots=4 recloseintervals=(2, 2, 5) breakertime=0.032
+new relay.a like=fdr monitoredobj=line.LN5799561-1 phasetrip=200 groundtrip=125
+new relay.b like=fdr monitoredobj=line.LN6350556-2 phasetrip=400 groundtrip=250
+

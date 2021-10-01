@@ -1,0 +1,6 @@
+compile DG_Prot_Fdr.dss
+batchedit regcontrol..* enabled=no
+solve mode=faultstudy
+export faults (faults.csv)
+export seqz (seqz.csv)
+

@@ -1,0 +1,26 @@
+Clear
+
+Redirect LoadShapes_mod.dss
+Redirect Substation.dss
+Redirect LineCodes.dss
+Redirect Lines.dss
+Redirect Transformers.dss
+Redirect LoadsInd.dss
+Redirect Services.dss
+Redirect Capacitors.dss
+Redirect Regulators.dss
+Redirect ExistingPV.dss
+
+Redirect ../Test_Hull/AllTCC.dss
+
+set maxiter=100
+set maxcontroliter=100
+
+Set voltagebases=[69, 12.47, 7.2, 0.480, 0.416]
+Calcv
+
+batchedit regcontrol..* enabled=no
+solve mode=faultstudy
+export faults (faults.csv)
+export seqz (seqz.csv)
+

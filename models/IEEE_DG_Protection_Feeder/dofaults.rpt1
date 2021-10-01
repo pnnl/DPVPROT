@@ -1,0 +1,441 @@
+Bus,Nphases,Rf,If,Status,Cleared?,Tcleared,Nopen,Nreclosed,Nfailed,Nfalse,Npv,Sopen,Sreclosed,Sfailed,Sfalse,Spv
+1 of 20 faults at B1, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B1",3,0.010,1145.4,SOLVED,True,0.0490,0,1,0,0,0,"","relay.a","","",""
+2 of 20 faults at B1.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B1.1.2",2,0.010,1408.3,SOLVED,True,0.0470,0,1,0,0,0,"","relay.a","","",""
+3 of 20 faults at B1.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B1.3",1,0.010,1431.6,SOLVED,True,0.0470,0,1,0,0,0,"","relay.a","","",""
+4 of 20 faults at BM, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"BM",3,0.010,924.2,SOLVED,True,0.0520,0,1,0,0,0,"","relay.a","","",""
+5 of 20 faults at BM.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"BM.1.2",2,0.010,926.0,SOLVED,True,0.0480,0,1,0,0,0,"","relay.a","","",""
+6 of 20 faults at BM.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"BM.3",1,0.010,922.7,SOLVED,True,0.0480,0,1,0,0,0,"","relay.a","","",""
+7 of 20 faults at B2, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B2",3,0.010,772.1,SOLVED,True,0.0550,0,1,0,0,0,"","relay.a","","",""
+8 of 20 faults at B2.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B2.1.2",2,0.010,735.9,SOLVED,True,0.0490,0,1,0,0,0,"","relay.a","","",""
+9 of 20 faults at B2.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B2.3",1,0.010,675.1,SOLVED,True,0.0480,0,1,0,0,0,"","relay.a","","",""
+10 of 20 faults at BT, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BT",3,0.010,762.8,SOLVED,True,0.0460,0,1,0,0,0,"","relay.b","","",""
+11 of 20 faults at BT.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BT.1.2",2,0.010,725.6,SOLVED,True,0.0460,0,1,0,0,0,"","relay.b","","",""
+12 of 20 faults at BT.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BT.3",1,0.010,662.0,SOLVED,True,0.0450,0,1,0,0,0,"","relay.b","","",""
+13 of 20 faults at LAT1.1, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['fuse.f1']
+"LAT1.1",1,0.010,538.8,SOLVED,True,0.0500,0,1,1,1,0,"","relay.a","fuse.f1","relay.a",""
+14 of 20 faults at LAT2.1, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['fuse.f2']
+"LAT2.1",1,0.010,130.7,SOLVED,True,2.8810,1,0,0,0,0,"fuse.f2","","","",""
+15 of 20 faults at BP, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP",3,0.010,1164.6,SOLVED,True,0.0490,0,1,0,0,0,"","relay.d","","",""
+16 of 20 faults at BP.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP.1.2",2,0.010,1479.8,SOLVED,True,0.0470,0,1,0,0,0,"","relay.d","","",""
+17 of 20 faults at BP.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP.3",1,0.010,1486.0,SOLVED,True,0.0470,0,1,0,0,0,"","relay.d","","",""
+18 of 20 faults at BG, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BG",3,0.010,9691.9,SOLVED,True,0.0510,0,1,0,0,0,"","relay.b","","",""
+19 of 20 faults at BG.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BG.1.2",2,0.010,12064.4,SOLVED,True,0.0510,0,1,0,0,0,"","relay.b","","",""
+20 of 20 faults at BG.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BG.3",1,0.010,11978.9,SOLVED,True,0.0690,0,1,0,0,0,"","relay.b","","",""
+Uncleared Faults:  
+Failed Trip Devices/Faults:
+  fuse.f1,LAT1.1
+False Trip Devices/Faults:
+  relay.a,LAT1.1
+Locked Open,Reclosed,Failed to Trip,False Trips,PV Trips,Faults,Uncleared,Tmin,Tmax,Tmean,Tstd
+1,19,1,1,0,20,0,0.045,2.881,0.191,0.633
+Uncleared = 0
+Nfailed   = 1
+Nfalse    = 1
+Npv       = 0
+Tmean = 0.191
+Bus,Nphases,Rf,If,Status,Cleared?,Tcleared,Nopen,Nreclosed,Nfailed,Nfalse,Npv,Sopen,Sreclosed,Sfailed,Sfalse,Spv
+1 of 20 faults at B1, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'relay.a']
+"B1",3,0.010,1230.9,SOLVED,True,0.1600,1,1,0,0,1,"relay.pv_pv","relay.a","","","relay.pv_pv"
+2 of 20 faults at B1.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'relay.a']
+"B1.1.2",2,0.010,1391.2,SOLVED,True,0.1600,1,1,0,0,1,"relay.pv_pv","relay.a","","","relay.pv_pv"
+3 of 20 faults at B1.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'relay.a']
+"B1.3",1,0.010,1438.1,SOLVED,True,2.0010,1,1,0,0,1,"relay.pv_pv","relay.a","","","relay.pv_pv"
+4 of 20 faults at BM, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'relay.a']
+"BM",3,0.010,1009.9,SOLVED,True,0.1600,1,1,0,0,1,"relay.pv_pv","relay.a","","","relay.pv_pv"
+5 of 20 faults at BM.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'relay.a']
+"BM.1.2",2,0.010,935.5,SOLVED,True,0.1600,1,1,0,0,1,"relay.pv_pv","relay.a","","","relay.pv_pv"
+6 of 20 faults at BM.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'relay.a']
+"BM.3",1,0.010,933.8,SOLVED,True,2.0010,1,1,0,0,1,"relay.pv_pv","relay.a","","","relay.pv_pv"
+7 of 20 faults at B2, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'relay.a']
+"B2",3,0.010,857.6,SOLVED,True,0.1600,1,1,0,0,1,"relay.pv_pv","relay.a","","","relay.pv_pv"
+8 of 20 faults at B2.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'relay.a']
+"B2.1.2",2,0.010,746.7,SOLVED,True,0.1600,1,1,0,0,1,"relay.pv_pv","relay.a","","","relay.pv_pv"
+9 of 20 faults at B2.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'relay.a']
+"B2.3",1,0.010,688.0,SOLVED,True,2.0010,1,1,0,0,1,"relay.pv_pv","relay.a","","","relay.pv_pv"
+10 of 20 faults at BT, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'relay.b']
+"BT",3,0.010,846.3,SOLVED,True,0.1600,1,1,0,0,1,"relay.pv_pv","relay.b","","","relay.pv_pv"
+11 of 20 faults at BT.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'relay.b']
+"BT.1.2",2,0.010,736.8,SOLVED,True,0.1130,1,1,0,0,1,"relay.pv_pv","relay.b","","","relay.pv_pv"
+12 of 20 faults at BT.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'relay.b']
+"BT.3",1,0.010,675.0,SOLVED,True,0.1060,1,1,0,0,1,"relay.pv_pv","relay.b","","","relay.pv_pv"
+13 of 20 faults at LAT1.1, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'fuse.f1']
+"LAT1.1",1,0.010,546.2,SOLVED,True,6.1500,1,1,1,1,1,"relay.pv_pv","relay.a","fuse.f1","relay.a","relay.pv_pv"
+14 of 20 faults at LAT2.1, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'fuse.f2']
+"LAT2.1",1,0.010,134.7,SOLVED,True,2.5720,1,0,0,0,0,"fuse.f2","","","",""
+15 of 20 faults at BP, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP",3,0.010,1249.3,SOLVED,True,0.0490,0,1,0,0,0,"","relay.d","","",""
+16 of 20 faults at BP.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP.1.2",2,0.010,1457.4,SOLVED,True,0.0470,0,1,0,0,0,"","relay.d","","",""
+17 of 20 faults at BP.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP.3",1,0.010,1491.8,SOLVED,True,0.0470,0,1,0,0,0,"","relay.d","","",""
+18 of 20 faults at BG, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'relay.b']
+"BG",3,0.010,11165.0,SOLVED,True,0.1600,1,1,0,0,1,"relay.pv_pv","relay.b","","","relay.pv_pv"
+19 of 20 faults at BG.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'relay.b']
+"BG.1.2",2,0.010,13360.6,SOLVED,True,0.1600,1,1,0,0,1,"relay.pv_pv","relay.b","","","relay.pv_pv"
+20 of 20 faults at BG.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.pv_pv', 'relay.b']
+"BG.3",1,0.010,12472.5,SOLVED,True,0.1600,1,1,0,0,1,"relay.pv_pv","relay.b","","","relay.pv_pv"
+Uncleared Faults:  
+Failed Trip Devices/Faults:
+  fuse.f1,LAT1.1
+False Trip Devices/Faults:
+  relay.a,LAT1.1
+Locked Open,Reclosed,Failed to Trip,False Trips,PV Trips,Faults,Uncleared,Tmin,Tmax,Tmean,Tstd
+17,19,1,1,16,20,0,0.047,6.150,0.834,1.501
+Uncleared = 0
+Nfailed   = 1
+Nfalse    = 1
+Npv       = 16
+Tmean = 0.834
+Bus,Nphases,Rf,If,Status,Cleared?,Tcleared,Nopen,Nreclosed,Nfailed,Nfalse,Npv,Sopen,Sreclosed,Sfailed,Sfalse,Spv
+1 of 20 faults at B1, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B1",3,0.010,1145.4,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+2 of 20 faults at B1.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B1.1.2",2,0.010,1408.3,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+3 of 20 faults at B1.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B1.3",1,0.010,1431.6,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+4 of 20 faults at BM, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"BM",3,0.010,924.2,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+5 of 20 faults at BM.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"BM.1.2",2,0.010,926.0,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+6 of 20 faults at BM.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"BM.3",1,0.010,922.7,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+7 of 20 faults at B2, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B2",3,0.010,772.1,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+8 of 20 faults at B2.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B2.1.2",2,0.010,735.9,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+9 of 20 faults at B2.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B2.3",1,0.010,675.1,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+10 of 20 faults at BT, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BT",3,0.010,762.8,SOLVED,True,0.0420,0,1,0,0,0,"","relay.b","","",""
+11 of 20 faults at BT.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BT.1.2",2,0.010,725.6,SOLVED,True,0.0420,0,1,0,0,0,"","relay.b","","",""
+12 of 20 faults at BT.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BT.3",1,0.010,662.0,SOLVED,True,0.0420,0,1,0,0,0,"","relay.b","","",""
+13 of 20 faults at LAT1.1, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['fuse.f1']
+"LAT1.1",1,0.010,538.8,SOLVED,True,0.0900,1,0,0,0,0,"fuse.f1","","","",""
+14 of 20 faults at LAT2.1, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['fuse.f2']
+"LAT2.1",1,0.010,130.7,SOLVED,True,0.1020,0,1,1,1,0,"","relay.a","fuse.f2","relay.a",""
+15 of 20 faults at BP, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP",3,0.010,1164.6,SOLVED,True,0.1020,0,1,0,0,0,"","relay.d","","",""
+16 of 20 faults at BP.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP.1.2",2,0.010,1479.8,SOLVED,True,0.1020,0,2,0,1,0,"","relay.a,relay.d","","relay.a",""
+17 of 20 faults at BP.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP.3",1,0.010,1486.0,SOLVED,True,0.1020,0,1,0,0,0,"","relay.d","","",""
+18 of 20 faults at BG, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BG",3,0.010,9691.9,SOLVED,True,0.0420,0,1,0,0,0,"","relay.b","","",""
+19 of 20 faults at BG.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BG.1.2",2,0.010,12064.4,SOLVED,True,0.0420,0,1,0,0,0,"","relay.b","","",""
+20 of 20 faults at BG.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BG.3",1,0.010,11978.9,SOLVED,True,0.0420,0,1,0,0,0,"","relay.b","","",""
+Uncleared Faults:  
+Failed Trip Devices/Faults:
+  fuse.f2,LAT2.1
+False Trip Devices/Faults:
+  relay.a,LAT2.1,BP.1.2
+Locked Open,Reclosed,Failed to Trip,False Trips,PV Trips,Faults,Uncleared,Tmin,Tmax,Tmean,Tstd
+1,20,1,2,0,20,0,0.042,0.102,0.083,0.028
+Uncleared = 0
+Nfailed   = 1
+Nfalse    = 2
+Npv       = 0
+Tmean = 0.083
+Bus,Nphases,Rf,If,Status,Cleared?,Tcleared,Nopen,Nreclosed,Nfailed,Nfalse,Npv,Sopen,Sreclosed,Sfailed,Sfalse,Spv
+1 of 20 faults at B1, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"B1",3,0.010,1232.6,SOLVED,True,0.5320,1,1,0,0,0,"relay.dist_pv","relay.a","","",""
+2 of 20 faults at B1.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"B1.1.2",2,0.010,1391.2,SOLVED,True,0.5320,1,1,0,0,0,"relay.dist_pv","relay.a","","",""
+3 of 20 faults at B1.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"B1.3",1,0.010,1438.1,SOLVED,True,0.5320,1,1,0,0,0,"relay.dist_pv","relay.a","","",""
+4 of 20 faults at BM, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"BM",3,0.010,1011.7,SOLVED,True,0.5320,1,1,0,0,0,"relay.dist_pv","relay.a","","",""
+5 of 20 faults at BM.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"BM.1.2",2,0.010,935.5,SOLVED,True,0.5320,1,1,0,0,0,"relay.dist_pv","relay.a","","",""
+6 of 20 faults at BM.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"BM.3",1,0.010,933.8,SOLVED,True,0.5320,1,1,0,0,0,"relay.dist_pv","relay.a","","",""
+7 of 20 faults at B2, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"B2",3,0.010,854.8,SOLVED,True,0.1020,0,2,1,1,0,"","relay.b,relay.a","relay.dist_pv","relay.b",""
+8 of 20 faults at B2.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"B2.1.2",2,0.010,746.7,SOLVED,True,0.5320,1,1,0,0,0,"relay.dist_pv","relay.a","","",""
+9 of 20 faults at B2.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"B2.3",1,0.010,688.1,SOLVED,True,0.5320,1,1,0,0,0,"relay.dist_pv","relay.a","","",""
+10 of 20 faults at BT, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.b']
+"BT",3,0.010,846.3,SOLVED,True,0.5330,1,1,0,0,0,"relay.dist_pv","relay.b","","",""
+11 of 20 faults at BT.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.b']
+"BT.1.2",2,0.010,736.8,SOLVED,True,0.1090,0,1,1,0,0,"","relay.b","relay.dist_pv","",""
+12 of 20 faults at BT.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.b']
+"BT.3",1,0.010,675.0,SOLVED,True,0.1020,0,1,1,0,0,"","relay.b","relay.dist_pv","",""
+13 of 20 faults at LAT1.1, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'fuse.f1']
+"LAT1.1",1,0.010,546.2,SOLVED,True,0.0880,1,0,1,0,0,"fuse.f1","","relay.dist_pv","",""
+14 of 20 faults at LAT2.1, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'fuse.f2']
+"LAT2.1",1,0.010,134.7,SOLVED,True,22.4110,2,0,2,1,1,"relay.a,relay.pv_pv","","fuse.f2,relay.dist_pv","relay.a","relay.pv_pv"
+15 of 20 faults at BP, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP",3,0.010,1250.8,SOLVED,True,0.1020,0,1,0,0,0,"","relay.d","","",""
+16 of 20 faults at BP.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP.1.2",2,0.010,1457.4,SOLVED,True,0.1020,0,1,0,0,0,"","relay.d","","",""
+17 of 20 faults at BP.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP.3",1,0.010,1491.8,SOLVED,True,0.1020,0,1,0,0,0,"","relay.d","","",""
+18 of 20 faults at BG, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.b']
+"BG",3,0.010,11195.5,SOLVED,True,21.0420,2,0,1,0,1,"relay.b,relay.pv_pv","","relay.dist_pv","","relay.pv_pv"
+19 of 20 faults at BG.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.b']
+"BG.1.2",2,0.010,13387.3,SOLVED,True,21.0420,2,0,1,0,1,"relay.b,relay.pv_pv","","relay.dist_pv","","relay.pv_pv"
+20 of 20 faults at BG.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.b']
+"BG.3",1,0.010,12465.5,SOLVED,True,13.0430,2,0,1,0,1,"relay.b,relay.pv_pv","","relay.dist_pv","","relay.pv_pv"
+Uncleared Faults:  
+Failed Trip Devices/Faults:
+  relay.dist_pv,B2,BT.1.2,BT.3,LAT1.1,LAT2.1,BG,BG.1.2,BG.3
+  fuse.f2,LAT2.1
+False Trip Devices/Faults:
+  relay.b,B2
+  relay.a,LAT2.1
+Locked Open,Reclosed,Failed to Trip,False Trips,PV Trips,Faults,Uncleared,Tmin,Tmax,Tmean,Tstd
+18,16,9,2,4,20,0,0.088,22.411,4.152,7.999
+Uncleared = 0
+Nfailed   = 9
+Nfalse    = 2
+Npv       = 4
+Tmean = 4.152
+Bus,Nphases,Rf,If,Status,Cleared?,Tcleared,Nopen,Nreclosed,Nfailed,Nfalse,Npv,Sopen,Sreclosed,Sfailed,Sfalse,Spv
+1 of 20 faults at B1, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B1",3,0.010,1145.4,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+2 of 20 faults at B1.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B1.1.2",2,0.010,1408.3,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+3 of 20 faults at B1.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B1.3",1,0.010,1431.6,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+4 of 20 faults at BM, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"BM",3,0.010,924.2,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+5 of 20 faults at BM.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"BM.1.2",2,0.010,926.0,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+6 of 20 faults at BM.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"BM.3",1,0.010,922.7,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+7 of 20 faults at B2, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B2",3,0.010,772.1,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+8 of 20 faults at B2.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B2.1.2",2,0.010,735.9,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+9 of 20 faults at B2.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B2.3",1,0.010,675.1,SOLVED,True,0.1020,0,1,0,0,0,"","relay.a","","",""
+10 of 20 faults at BT, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BT",3,0.010,762.8,SOLVED,True,0.0420,0,1,0,0,0,"","relay.b","","",""
+11 of 20 faults at BT.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BT.1.2",2,0.010,725.6,SOLVED,True,0.0420,0,1,0,0,0,"","relay.b","","",""
+12 of 20 faults at BT.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BT.3",1,0.010,662.0,SOLVED,True,0.0420,0,1,0,0,0,"","relay.b","","",""
+13 of 20 faults at LAT1.1, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['fuse.f1']
+"LAT1.1",1,0.010,538.8,SOLVED,True,0.0900,1,0,0,0,0,"fuse.f1","","","",""
+14 of 20 faults at LAT2.1, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['fuse.f2']
+"LAT2.1",1,0.010,130.7,SOLVED,True,0.1020,0,1,1,1,0,"","relay.a","fuse.f2","relay.a",""
+15 of 20 faults at BP, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP",3,0.010,1164.6,SOLVED,True,0.1020,0,1,0,0,0,"","relay.d","","",""
+16 of 20 faults at BP.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP.1.2",2,0.010,1479.8,SOLVED,True,0.1020,0,1,0,0,0,"","relay.d","","",""
+17 of 20 faults at BP.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP.3",1,0.010,1486.0,SOLVED,True,0.1020,0,1,0,0,0,"","relay.d","","",""
+18 of 20 faults at BG, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BG",3,0.010,9691.9,SOLVED,True,0.0420,0,1,0,0,0,"","relay.b","","",""
+19 of 20 faults at BG.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BG.1.2",2,0.010,12064.4,SOLVED,True,0.0420,0,1,0,0,0,"","relay.b","","",""
+20 of 20 faults at BG.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"BG.3",1,0.010,11978.9,SOLVED,True,0.0420,0,1,0,0,0,"","relay.b","","",""
+Uncleared Faults:  
+Failed Trip Devices/Faults:
+  fuse.f2,LAT2.1
+False Trip Devices/Faults:
+  relay.a,LAT2.1
+Locked Open,Reclosed,Failed to Trip,False Trips,PV Trips,Faults,Uncleared,Tmin,Tmax,Tmean,Tstd
+1,19,1,1,0,20,0,0.042,0.102,0.083,0.028
+Uncleared = 0
+Nfailed   = 1
+Nfalse    = 1
+Npv       = 0
+Tmean = 0.083
+Bus,Nphases,Rf,If,Status,Cleared?,Tcleared,Nopen,Nreclosed,Nfailed,Nfalse,Npv,Sopen,Sreclosed,Sfailed,Sfalse,Spv
+1 of 20 faults at B1, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"B1",3,0.010,1232.9,SOLVED,True,21.0000,2,0,1,0,1,"relay.pv_pv,relay.a","","relay.dist_pv","","relay.pv_pv"
+2 of 20 faults at B1.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"B1.1.2",2,0.010,1391.2,SOLVED,True,0.6340,1,1,0,0,0,"relay.dist_pv","relay.a","","",""
+3 of 20 faults at B1.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"B1.3",1,0.010,1438.1,SOLVED,True,13.1030,2,0,1,0,1,"relay.pv_pv,relay.a","","relay.dist_pv","","relay.pv_pv"
+4 of 20 faults at BM, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"BM",3,0.010,1012.1,SOLVED,True,21.0000,2,0,1,0,1,"relay.pv_pv,relay.a","","relay.dist_pv","","relay.pv_pv"
+5 of 20 faults at BM.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"BM.1.2",2,0.010,935.5,SOLVED,True,0.6340,1,1,0,0,0,"relay.dist_pv","relay.a","","",""
+6 of 20 faults at BM.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"BM.3",1,0.010,933.8,SOLVED,True,13.1030,2,0,1,0,1,"relay.pv_pv,relay.a","","relay.dist_pv","","relay.pv_pv"
+7 of 20 faults at B2, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"B2",3,0.010,859.9,SOLVED,True,21.0000,2,0,1,0,1,"relay.pv_pv,relay.a","","relay.dist_pv","","relay.pv_pv"
+8 of 20 faults at B2.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"B2.1.2",2,0.010,746.7,SOLVED,True,0.6480,1,1,0,0,0,"relay.dist_pv","relay.a","","",""
+9 of 20 faults at B2.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.a']
+"B2.3",1,0.010,688.1,SOLVED,True,22.4320,2,0,1,0,1,"relay.pv_pv,relay.a","","relay.dist_pv","","relay.pv_pv"
+10 of 20 faults at BT, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.b']
+"BT",3,0.010,846.3,SOLVED,True,0.5740,1,1,0,0,0,"relay.dist_pv","relay.b","","",""
+11 of 20 faults at BT.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.b']
+"BT.1.2",2,0.010,736.8,SOLVED,True,0.1090,0,1,1,0,0,"","relay.b","relay.dist_pv","",""
+12 of 20 faults at BT.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.b']
+"BT.3",1,0.010,675.0,SOLVED,True,0.1020,0,1,1,0,0,"","relay.b","relay.dist_pv","",""
+13 of 20 faults at LAT1.1, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'fuse.f1']
+"LAT1.1",1,0.010,546.2,SOLVED,True,0.0880,1,0,1,0,0,"fuse.f1","","relay.dist_pv","",""
+14 of 20 faults at LAT2.1, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'fuse.f2']
+"LAT2.1",1,0.010,134.7,SOLVED,True,22.4320,2,0,2,1,1,"relay.pv_pv,relay.a","","fuse.f2,relay.dist_pv","relay.a","relay.pv_pv"
+15 of 20 faults at BP, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP",3,0.010,1250.8,SOLVED,True,0.1020,0,1,0,0,0,"","relay.d","","",""
+16 of 20 faults at BP.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP.1.2",2,0.010,1457.4,SOLVED,True,0.1020,0,1,0,0,0,"","relay.d","","",""
+17 of 20 faults at BP.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"BP.3",1,0.010,1491.8,SOLVED,True,0.1020,0,1,0,0,0,"","relay.d","","",""
+18 of 20 faults at BG, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.b']
+"BG",3,0.010,11195.5,SOLVED,True,21.0420,2,0,1,0,1,"relay.b,relay.pv_pv","","relay.dist_pv","","relay.pv_pv"
+19 of 20 faults at BG.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.b']
+"BG.1.2",2,0.010,13387.2,SOLVED,True,21.0420,2,0,1,0,1,"relay.b,relay.pv_pv","","relay.dist_pv","","relay.pv_pv"
+20 of 20 faults at BG.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.dist_pv', 'relay.b']
+"BG.3",1,0.010,12465.5,SOLVED,True,13.0430,2,0,1,0,1,"relay.b,relay.pv_pv","","relay.dist_pv","","relay.pv_pv"
+Uncleared Faults:  
+Failed Trip Devices/Faults:
+  relay.dist_pv,B1,B1.3,BM,BM.3,B2,B2.3,BT.1.2,BT.3,LAT1.1,LAT2.1,BG,BG.1.2,BG.3
+  fuse.f2,LAT2.1
+False Trip Devices/Faults:
+  relay.a,LAT2.1
+Locked Open,Reclosed,Failed to Trip,False Trips,PV Trips,Faults,Uncleared,Tmin,Tmax,Tmean,Tstd
+25,9,14,1,10,20,0,0.088,22.432,9.615,9.950
+Uncleared = 0
+Nfailed   = 14
+Nfalse    = 1
+Npv       = 10
+Tmean = 9.615

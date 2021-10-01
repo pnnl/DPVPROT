@@ -1,0 +1,242 @@
+new line.1 phases=1 bus1=5848128103.3 bus2=B13923.3
+~   rmatrix=[1.127350] xmatrix=[0.72761] cmatrix=[0] // len=0.00000
+new line.2 phases=1 bus1=5851228580.3 bus2=B35443.3
+~   rmatrix=[0.508740] xmatrix=[0.31134] cmatrix=[0] // len=0.00000
+new line.3 phases=3 bus1=B4833.1.2.3 bus2=5865228330A.1.2.3
+~   r1=0.12398 x1=0.07856 r0=0.19871 x0=0.16980 c1=0.01965 c0=0.01658 // len=0.17373
+new load.3_1 phases=3 bus1=B4833.1.2.3 kv=12.47 conn=wye model=2 kw=0.150 kvar=-1.150
+new load.3_2 phases=3 bus1=5865228330A.1.2.3 kv=12.47 conn=wye model=2 kw=0.150 kvar=-1.150
+new line.4 phases=3 bus1=B23208.1.2.3 bus2=5890628219.1.2.3
+~   r1=0.15661 x1=0.14118 r0=0.25944 x0=0.38941 c1=0.01965 c0=0.01658 // len=0.28347
+new line.5 phases=1 bus1=5912527743.1 bus2=B2630.1
+~   rmatrix=[0.999096] xmatrix=[0.73186] cmatrix=[0] // len=2.45638
+new load.5_1 phases=1 bus1=5912527743.1 kv=7.2 conn=wye model=2 kw=23.850 kvar=17.650
+new load.5_2 phases=1 bus1=B2630.1 kv=7.2 conn=wye model=2 kw=23.850 kvar=17.650
+new line.6 phases=1 bus1=5925528209A.3 bus2=B60868.3
+~   rmatrix=[1.285950] xmatrix=[0.81278] cmatrix=[0] // len=0.00000
+new line.7 phases=1 bus1=5962929303.2 bus2=B43438.2
+~   rmatrix=[1.006727] xmatrix=[0.41700] cmatrix=[0] // len=0.00000
+new line.8 phases=1 bus1=5967328881.2 bus2=6022828946.2
+~   rmatrix=[1.531170] xmatrix=[0.81491] cmatrix=[0] // len=11.62070
+new line.9 phases=1 bus1=5988528387.3 bus2=B60868.3
+~   rmatrix=[0.978340] xmatrix=[0.60968] cmatrix=[0] // len=0.00000
+new line.10 phases=1 bus1=5998528541.3 bus2=B18948.3
+~   rmatrix=[1.523787] xmatrix=[1.02329] cmatrix=[0] // len=12.00260
+new load.10_1 phases=1 bus1=5998528541.3 kv=7.2 conn=wye model=2 kw=0.050 kvar=0.000
+new load.10_2 phases=1 bus1=B18948.3 kv=7.2 conn=wye model=2 kw=0.050 kvar=0.000
+new line.11 phases=3 bus1=B18858.1.2.3 bus2=6022828946.1.2.3
+~   r1=2.42239 x1=1.63709 r0=4.52066 x0=4.11966 c1=0.01965 c0=0.01658 // len=3.70875
+new load.11_1 phases=3 bus1=B18858.1.2.3 kv=12.47 conn=wye model=2 kw=142.200 kvar=108.150
+new load.11_2 phases=3 bus1=6022828946.1.2.3 kv=12.47 conn=wye model=2 kw=142.200 kvar=108.150
+new line.12 phases=1 bus1=6093229888.1 bus2=B19028.1
+~   rmatrix=[1.228127] xmatrix=[0.92344] cmatrix=[0] // len=0.00000
+new load.12_1 phases=1 bus1=6093229888.1 kv=7.2 conn=wye model=2 kw=49.950 kvar=40.600
+new load.12_2 phases=1 bus1=B19028.1 kv=7.2 conn=wye model=2 kw=49.950 kvar=40.600
+new line.13 phases=3 bus1=B19183.1.2.3 bus2=B13649.1.2.3
+~   r1=0.05852 x1=0.17168 r0=0.18827 x0=0.54346 c1=0.01965 c0=0.01658 // len=0.45629
+new load.13_1 phases=3 bus1=B19183.1.2.3 kv=12.47 conn=wye model=2 kw=10.750 kvar=8.150
+new load.13_2 phases=3 bus1=B13649.1.2.3 kv=12.47 conn=wye model=2 kw=10.750 kvar=8.150
+new line.14 phases=1 bus1=B13923.3 bus2=B19052.3
+~   rmatrix=[1.136137] xmatrix=[0.56568] cmatrix=[0] // len=6.87837
+new line.15 phases=1 bus1=B14440.3 bus2=B4837.3
+~   rmatrix=[0.326157] xmatrix=[0.17913] cmatrix=[0] // len=6.45744
+new line.16 phases=1 bus1=B17991.3 bus2=B4588.3
+~   rmatrix=[1.252993] xmatrix=[0.66170] cmatrix=[0] // len=7.60654
+new line.17 phases=3 bus1=B4833.1.2.3 bus2=B18821.1.2.3
+~   r1=0.01376 x1=0.02672 r0=0.05728 x0=0.07204 c1=0.01965 c0=0.01658 // len=0.07864
+new load.17_1 phases=3 bus1=B4833.1.2.3 kv=12.47 conn=wye model=2 kw=0.150 kvar=0.500
+new load.17_2 phases=3 bus1=B18821.1.2.3 kv=12.47 conn=wye model=2 kw=0.150 kvar=0.500
+new line.18 phases=3 bus1=B4837.1.2.3 bus2=B18829.1.2.3
+~   r1=0.01373 x1=0.03151 r0=0.05428 x0=0.09398 c1=0.01965 c0=0.01658 // len=0.08779
+new load.18_1 phases=3 bus1=B4837.1.2.3 kv=12.47 conn=wye model=2 kw=4.450 kvar=3.700
+new load.18_2 phases=3 bus1=B18829.1.2.3 kv=12.47 conn=wye model=2 kw=4.450 kvar=3.700
+new line.19 phases=3 bus1=B18829.1.2.3 bus2=B18858.1.2.3
+~   r1=0.71377 x1=0.58678 r0=1.33302 x0=1.50210 c1=0.01965 c0=0.01658 // len=1.36672
+new load.19_1 phases=3 bus1=B18829.1.2.3 kv=12.47 conn=wye model=2 kw=153.550 kvar=109.250
+new load.19_2 phases=3 bus1=B18858.1.2.3 kv=12.47 conn=wye model=2 kw=153.550 kvar=109.250
+new line.20 phases=3 bus1=6022828946.1.2.3 bus2=B18941.1.2.3
+~   r1=0.05825 x1=0.02402 r0=0.10080 x0=0.06950 c1=0.01965 c0=0.01658 // len=0.06710
+new load.20_1 phases=3 bus1=6022828946.1.2.3 kv=12.47 conn=wye model=2 kw=0.300 kvar=0.200
+new load.20_2 phases=3 bus1=B18941.1.2.3 kv=12.47 conn=wye model=2 kw=0.300 kvar=0.200
+new line.21 phases=3 bus1=B18941.1.2.3 bus2=B18948.1.2.3
+~   r1=0.23474 x1=0.11777 r0=0.30950 x0=0.28520 c1=0.01965 c0=0.01658 // len=0.31480
+new load.21_1 phases=3 bus1=B18941.1.2.3 kv=12.47 conn=wye model=2 kw=6.400 kvar=4.100
+new load.21_2 phases=3 bus1=B18948.1.2.3 kv=12.47 conn=wye model=2 kw=6.400 kvar=4.100
+new line.22 phases=3 bus1=B18948.1.2.3 bus2=B18967.1.2.3
+~   r1=0.65279 x1=0.33845 r0=0.87030 x0=0.85460 c1=0.01965 c0=0.01658 // len=0.86440
+new load.22_1 phases=3 bus1=B18948.1.2.3 kv=12.47 conn=wye model=2 kw=22.450 kvar=17.500
+new load.22_2 phases=3 bus1=B18967.1.2.3 kv=12.47 conn=wye model=2 kw=22.450 kvar=17.500
+new line.23 phases=2 bus1=B19028.1.2 bus2=B18967.1.2
+~   r1=1.25273 x1=0.96227 r0=1.89250 x0=1.95430 c1=0.01965 c0=0.01658 // len=12.86700
+new load.23_1 phases=2 bus1=B19028.1.2 kv=12.47 conn=wye model=2 kw=39.400 kvar=27.950
+new load.23_2 phases=2 bus1=B18967.1.2 kv=12.47 conn=wye model=2 kw=39.400 kvar=27.950
+new line.24 phases=3 bus1=B4808.1.2.3 bus2=B19042.1.2.3
+~   r1=0.40688 x1=0.23460 r0=0.58595 x0=0.73580 c1=0.01965 c0=0.01658 // len=0.47762
+new load.24_1 phases=3 bus1=B4808.1.2.3 kv=12.47 conn=wye model=2 kw=26.150 kvar=19.250
+new load.24_2 phases=3 bus1=B19042.1.2.3 kv=12.47 conn=wye model=2 kw=26.150 kvar=19.250
+new line.25 phases=3 bus1=B4760.1.2.3 bus2=B19052.1.2.3
+~   r1=0.66847 x1=0.38052 r0=0.96222 x0=1.18225 c1=0.01965 c0=0.01658 // len=0.78912
+new load.25_1 phases=3 bus1=B4760.1.2.3 kv=12.47 conn=wye model=2 kw=36.550 kvar=26.650
+new load.25_2 phases=3 bus1=B19052.1.2.3 kv=12.47 conn=wye model=2 kw=36.550 kvar=26.650
+new line.26 phases=3 bus1=B4760.1.2.3 bus2=B19183.1.2.3
+~   r1=0.01965 x1=0.05722 r0=0.05599 x0=0.17393 c1=0.01965 c0=0.01658 // len=0.15270
+new load.26_1 phases=3 bus1=B4760.1.2.3 kv=12.47 conn=wye model=2 kw=12.650 kvar=9.400
+new load.26_2 phases=3 bus1=B19183.1.2.3 kv=12.47 conn=wye model=2 kw=12.650 kvar=9.400
+new line.27 phases=1 bus1=B22803.3 bus2=B13923.3
+~   rmatrix=[1.203050] xmatrix=[0.72305] cmatrix=[0] // len=0.00000
+new line.28 phases=3 bus1=B4837.1.2.3 bus2=B23208.1.2.3
+~   r1=0.70762 x1=0.35589 r0=1.08207 x0=1.07058 c1=0.01965 c0=0.01658 // len=0.82784
+new load.28_1 phases=3 bus1=B4837.1.2.3 kv=12.47 conn=wye model=2 kw=9.150 kvar=6.100
+new load.28_2 phases=3 bus1=B23208.1.2.3 kv=12.47 conn=wye model=2 kw=9.150 kvar=6.100
+new line.29 phases=3 bus1=B5213.1.2.3 bus2=B23283.1.2.3
+~   r1=0.22388 x1=0.44063 r0=0.61492 x0=1.35274 c1=0.01965 c0=0.01658 // len=1.23840
+new load.29_1 phases=3 bus1=B5213.1.2.3 kv=12.47 conn=wye model=2 kw=29.350 kvar=43.100
+new load.29_2 phases=3 bus1=B23283.1.2.3 kv=12.47 conn=wye model=2 kw=29.350 kvar=43.100
+new line.30 phases=1 bus1=B23416.1 bus2=B23283.1
+~   rmatrix=[1.334611] xmatrix=[0.84414] cmatrix=[0] // len=1.57185
+new line.31 phases=1 bus1=B24288.3 bus2=B22803.3
+~   rmatrix=[4.044910] xmatrix=[2.46352] cmatrix=[0] // len=0.00000
+new line.32 phases=1 bus1=B24504.3 bus2=B4725.3
+~   rmatrix=[1.834863] xmatrix=[1.37462] cmatrix=[0] // len=6.80339
+new load.32_1 phases=1 bus1=B24504.3 kv=7.2 conn=wye model=2 kw=78.950 kvar=56.900
+new load.32_2 phases=1 bus1=B4725.3 kv=7.2 conn=wye model=2 kw=78.950 kvar=56.900
+new line.33 phases=3 bus1=B23283.1.2.3 bus2=B2630.1.2.3
+~   r1=0.10962 x1=0.34618 r0=0.30313 x0=1.11189 c1=0.01965 c0=0.01658 // len=0.88453
+new load.33_1 phases=3 bus1=B23283.1.2.3 kv=12.47 conn=wye model=2 kw=25.950 kvar=18.050
+new load.33_2 phases=3 bus1=B2630.1.2.3 kv=12.47 conn=wye model=2 kw=25.950 kvar=18.050
+new line.34 phases=1 bus1=B29921.3 bus2=B5213.3
+~   rmatrix=[0.467408] xmatrix=[0.27324] cmatrix=[0] // len=0.33345
+new line.35 phases=1 bus1=B31997.3 bus2=B24504.3
+~   rmatrix=[0.834420] xmatrix=[0.51091] cmatrix=[0] // len=0.00000
+new line.36 phases=1 bus1=B32783.2 bus2=B4888.2
+~   rmatrix=[0.735860] xmatrix=[0.59032] cmatrix=[0] // len=4.82651
+new load.36_1 phases=1 bus1=B32783.2 kv=7.2 conn=wye model=2 kw=22.700 kvar=15.450
+new load.36_2 phases=1 bus1=B4888.2 kv=7.2 conn=wye model=2 kw=22.700 kvar=15.450
+new line.37 phases=1 bus1=B35443.3 bus2=B13649.3
+~   rmatrix=[0.564890] xmatrix=[0.22101] cmatrix=[0] // len=6.69824
+new line.38 phases=2 bus1=B41878.1.2 bus2=B19028.1.2
+~   r1=1.38201 x1=0.78243 r0=1.83440 x0=1.83140 c1=0.01965 c0=0.01658 // len=0.00000
+new load.38_1 phases=2 bus1=B41878.1.2 kv=12.47 conn=wye model=2 kw=172.000 kvar=124.700
+new load.38_2 phases=2 bus1=B19028.1.2 kv=12.47 conn=wye model=2 kw=172.000 kvar=124.700
+new line.39 phases=2 bus1=B43438.1.2 bus2=B41878.1.2
+~   r1=0.66059 x1=0.39523 r0=0.92280 x0=1.03670 c1=0.01965 c0=0.01658 // len=0.00000
+new load.39_1 phases=2 bus1=B43438.1.2 kv=12.47 conn=wye model=2 kw=52.000 kvar=38.450
+new load.39_2 phases=2 bus1=B41878.1.2 kv=12.47 conn=wye model=2 kw=52.000 kvar=38.450
+new line.40 phases=3 bus1=B4588.1.2.3 bus2=B4541.1.2.3
+~   r1=0.92420 x1=0.79857 r0=1.56621 x0=2.56093 c1=0.01965 c0=0.01658 // len=1.70414
+new load.40_1 phases=3 bus1=B4588.1.2.3 kv=12.47 conn=wye model=2 kw=87.500 kvar=61.850
+new load.40_2 phases=3 bus1=B4541.1.2.3 kv=12.47 conn=wye model=2 kw=87.500 kvar=61.850
+new line.41 phases=3 bus1=B4602.1.2.3 bus2=B4588.1.2.3
+~   r1=0.21740 x1=0.20714 r0=0.38659 x0=0.66387 c1=0.01965 c0=0.01658 // len=0.46055
+new load.41_1 phases=3 bus1=B4602.1.2.3 kv=12.47 conn=wye model=2 kw=22.650 kvar=15.800
+new load.41_2 phases=3 bus1=B4588.1.2.3 kv=12.47 conn=wye model=2 kw=22.650 kvar=15.800
+new line.42 phases=3 bus1=B4725.1.2.3 bus2=B4602.1.2.3
+~   r1=0.04289 x1=0.13224 r0=0.16398 x0=0.45992 c1=0.01965 c0=0.01658 // len=0.34260
+new load.42_1 phases=3 bus1=B4725.1.2.3 kv=12.47 conn=wye model=2 kw=26.050 kvar=19.100
+new load.42_2 phases=3 bus1=B4602.1.2.3 kv=12.47 conn=wye model=2 kw=26.050 kvar=19.100
+new line.43 phases=3 bus1=B4602.1.2.3 bus2=B4619.1.2.3
+~   r1=0.36815 x1=0.26046 r0=0.56131 x0=0.81533 c1=0.01965 c0=0.01658 // len=0.54132
+new load.43_1 phases=3 bus1=B4602.1.2.3 kv=12.47 conn=wye model=2 kw=10.500 kvar=7.000
+new load.43_2 phases=3 bus1=B4619.1.2.3 kv=12.47 conn=wye model=2 kw=10.500 kvar=7.000
+new line.44 phases=3 bus1=B18829.1.2.3 bus2=B46703.1.2.3
+~   r1=0.24301 x1=0.13951 r0=0.34384 x0=0.43356 c1=0.01965 c0=0.01658 // len=0.28407
+new load.44_1 phases=3 bus1=B18829.1.2.3 kv=12.47 conn=wye model=2 kw=17.300 kvar=12.100
+new load.44_2 phases=3 bus1=B46703.1.2.3 kv=12.47 conn=wye model=2 kw=17.300 kvar=12.100
+new line.45 phases=3 bus1=B13649.1.2.3 bus2=B4725.1.2.3
+~   r1=0.01333 x1=0.04006 r0=0.04746 x0=0.13262 c1=0.01965 c0=0.01658 // len=0.10515
+new load.45_1 phases=3 bus1=B13649.1.2.3 kv=12.47 conn=wye model=2 kw=4.100 kvar=2.700
+new load.45_2 phases=3 bus1=B4725.1.2.3 kv=12.47 conn=wye model=2 kw=4.100 kvar=2.700
+new line.46 phases=3 bus1=B4808.1.2.3 bus2=B4760.1.2.3
+~   r1=0.07172 x1=0.20177 r0=0.20572 x0=0.60114 c1=0.01965 c0=0.01658 // len=0.54834
+new load.46_1 phases=3 bus1=B4808.1.2.3 kv=12.47 conn=wye model=2 kw=44.450 kvar=32.450
+new load.46_2 phases=3 bus1=B4760.1.2.3 kv=12.47 conn=wye model=2 kw=44.450 kvar=32.450
+new line.47 phases=3 bus1=B4808.1.2.3 bus2=B47668.1.2.3
+~   r1=0.73226 x1=0.42302 r0=1.04485 x0=1.31719 c1=0.01965 c0=0.01658 // len=0.85893
+new load.47_1 phases=3 bus1=B4808.1.2.3 kv=12.47 conn=wye model=2 kw=42.050 kvar=30.050
+new load.47_2 phases=3 bus1=B47668.1.2.3 kv=12.47 conn=wye model=2 kw=42.050 kvar=30.050
+new line.48 phases=1 bus1=B47846.3 bus2=B18967.3
+~   rmatrix=[1.776013] xmatrix=[1.22609] cmatrix=[0] // len=12.86700
+new load.48_1 phases=1 bus1=B47846.3 kv=7.2 conn=wye model=2 kw=61.900 kvar=43.550
+new load.48_2 phases=1 bus1=B18967.3 kv=7.2 conn=wye model=2 kw=61.900 kvar=43.550
+new line.49 phases=3 bus1=B23208.1.2.3 bus2=B47983.1.2.3
+~   r1=0.11756 x1=0.06383 r0=0.17435 x0=0.19630 c1=0.01965 c0=0.01658 // len=0.13808
+new line.50 phases=3 bus1=B4808.1.2.3 bus2=B4829.1.2.3
+~   r1=0.11672 x1=0.20892 r0=0.49420 x0=0.54707 c1=0.01965 c0=0.01658 // len=0.62758
+new load.50_1 phases=3 bus1=B4808.1.2.3 kv=12.47 conn=wye model=2 kw=45.600 kvar=34.900
+new load.50_2 phases=3 bus1=B4829.1.2.3 kv=12.47 conn=wye model=2 kw=45.600 kvar=34.900
+new line.51 phases=3 bus1=B4829.1.2.3 bus2=B4832.1.2.3
+~   r1=0.02455 x1=0.04406 r0=0.10053 x0=0.10769 c1=0.01965 c0=0.01658 // len=0.13716
+new load.51_1 phases=3 bus1=B4829.1.2.3 kv=12.47 conn=wye model=2 kw=0.350 kvar=1.100
+new load.51_2 phases=3 bus1=B4832.1.2.3 kv=12.47 conn=wye model=2 kw=0.350 kvar=1.100
+new line.52 phases=3 bus1=B4832.1.2.3 bus2=B4833.1.2.3
+~   r1=0.00716 x1=0.01311 r0=0.02944 x0=0.03288 c1=0.01965 c0=0.01658 // len=0.04024
+new load.52_1 phases=3 bus1=B4832.1.2.3 kv=12.47 conn=wye model=2 kw=0.150 kvar=0.350
+new load.52_2 phases=3 bus1=B4833.1.2.3 kv=12.47 conn=wye model=2 kw=0.150 kvar=0.350
+new line.53 phases=3 bus1=B18821.1.2.3 bus2=B4837.1.2.3
+~   r1=0.00575 x1=0.01124 r0=0.02401 x0=0.03045 c1=0.01965 c0=0.01658 // len=0.03291
+new line.54 phases=3 bus1=B4862.1.2.3 bus2=B4808.1.2.3
+~   r1=0.02848 x1=0.04473 r0=0.10441 x0=0.09634 c1=0.01965 c0=0.01658 // len=0.14722
+new load.54_1 phases=3 bus1=B4862.1.2.3 kv=12.47 conn=wye model=2 kw=21.550 kvar=17.450
+new load.54_2 phases=3 bus1=B4808.1.2.3 kv=12.47 conn=wye model=2 kw=21.550 kvar=17.450
+new line.55 phases=3 bus1=B4877.1.2.3 bus2=B4862.1.2.3
+~   r1=0.12726 x1=0.21042 r0=0.35570 x0=0.43083 c1=0.01965 c0=0.01658 // len=0.27854
+new line.56 phases=3 bus1=B4888.1.2.3 bus2=B4877.1.2.3
+~   r1=0.05956 x1=0.09408 r0=0.22838 x0=0.23031 c1=0.01965 c0=0.01658 // len=0.28864
+new load.56_1 phases=3 bus1=B4888.1.2.3 kv=12.47 conn=wye model=2 kw=14.250 kvar=13.450
+new load.56_2 phases=3 bus1=B4877.1.2.3 kv=12.47 conn=wye model=2 kw=14.250 kvar=13.450
+new line.57 phases=3 bus1=B4909.1.2.3 bus2=B4888.1.2.3
+~   r1=0.12584 x1=0.20309 r0=0.47178 x0=0.50951 c1=0.01965 c0=0.01658 // len=0.61966
+new load.57_1 phases=3 bus1=B4909.1.2.3 kv=12.47 conn=wye model=2 kw=25.150 kvar=26.050
+new load.57_2 phases=3 bus1=B4888.1.2.3 kv=12.47 conn=wye model=2 kw=25.150 kvar=26.050
+new line.58 phases=3 bus1=B23283.1.2.3 bus2=B4909.1.2.3
+~   r1=0.52262 x1=0.92222 r0=1.82945 x0=2.63910 c1=0.01965 c0=0.01658 // len=2.63500
+new load.58_1 phases=3 bus1=B23283.1.2.3 kv=12.47 conn=wye model=2 kw=109.200 kvar=117.300
+new load.58_2 phases=3 bus1=B4909.1.2.3 kv=12.47 conn=wye model=2 kw=109.200 kvar=117.300
+new line.59 phases=3 bus1=B23208.1.2.3 bus2=B51854.1.2.3
+~   r1=0.23120 x1=0.12578 r0=0.34315 x0=0.38748 c1=0.01965 c0=0.01658 // len=0.27127
+new load.59_1 phases=3 bus1=B23208.1.2.3 kv=12.47 conn=wye model=2 kw=28.400 kvar=19.050
+new load.59_2 phases=3 bus1=B51854.1.2.3 kv=12.47 conn=wye model=2 kw=28.400 kvar=19.050
+new line.60 phases=3 bus1=B5220.1.2.3 bus2=B5213.1.2.3
+~   r1=0.04895 x1=0.10193 r0=0.10968 x0=0.31426 c1=0.01965 c0=0.01658 // len=0.28255
+new load.60_1 phases=3 bus1=B5220.1.2.3 kv=12.47 conn=wye model=2 kw=4.250 kvar=8.250
+new load.60_2 phases=3 bus1=B5213.1.2.3 kv=12.47 conn=wye model=2 kw=4.250 kvar=8.250
+new line.61 phases=3 bus1=FEEDERHEAD.1.2.3 bus2=B5220.1.2.3
+~   r1=0.00876 x1=0.01862 r0=0.02217 x0=0.05959 c1=0.01965 c0=0.01658 // len=0.05090
+new load.61_1 phases=3 bus1=FEEDERHEAD.1.2.3 kv=12.47 conn=wye model=2 kw=0.400 kvar=1.200
+new load.61_2 phases=3 bus1=B5220.1.2.3 kv=12.47 conn=wye model=2 kw=0.400 kvar=1.200
+new line.62 phases=1 bus1=B52275.3 bus2=B19052.3
+~   rmatrix=[1.234167] xmatrix=[0.80242] cmatrix=[0] // len=6.87837
+new load.62_1 phases=1 bus1=B52275.3 kv=7.2 conn=wye model=2 kw=15.100 kvar=10.250
+new load.62_2 phases=1 bus1=B19052.3 kv=7.2 conn=wye model=2 kw=15.100 kvar=10.250
+new line.63 phases=3 bus1=B4833.1.2.3 bus2=B56591.1.2.3
+~   r1=0.21159 x1=0.12085 r0=0.30444 x0=0.37679 c1=0.01965 c0=0.01658 // len=0.24932
+new load.63_1 phases=3 bus1=B4833.1.2.3 kv=12.47 conn=wye model=2 kw=162.100 kvar=112.300
+new load.63_2 phases=3 bus1=B56591.1.2.3 kv=12.47 conn=wye model=2 kw=162.100 kvar=112.300
+new line.64 phases=1 bus1=B56685.2 bus2=B43438.2
+~   rmatrix=[0.645927] xmatrix=[0.23640] cmatrix=[0] // len=0.00000
+new load.64_1 phases=1 bus1=B56685.2 kv=7.2 conn=wye model=2 kw=69.850 kvar=45.550
+new load.64_2 phases=1 bus1=B43438.2 kv=7.2 conn=wye model=2 kw=69.850 kvar=45.550
+new line.65 phases=1 bus1=B57691.1 bus2=B19028.1
+~   rmatrix=[0.683827] xmatrix=[0.57014] cmatrix=[0] // len=0.00000
+new load.65_1 phases=1 bus1=B57691.1 kv=7.2 conn=wye model=2 kw=22.850 kvar=17.000
+new load.65_2 phases=1 bus1=B19028.1 kv=7.2 conn=wye model=2 kw=22.850 kvar=17.000
+new line.66 phases=1 bus1=B58809.3 bus2=B19042.3
+~   rmatrix=[0.357290] xmatrix=[0.20546] cmatrix=[0] // len=6.01853
+new load.66_1 phases=1 bus1=B58809.3 kv=7.2 conn=wye model=2 kw=13.650 kvar=9.350
+new load.66_2 phases=1 bus1=B19042.3 kv=7.2 conn=wye model=2 kw=13.650 kvar=9.350
+new line.67 phases=1 bus1=B59935.1 bus2=B41878.1
+~   rmatrix=[0.992720] xmatrix=[0.75475] cmatrix=[0] // len=0.00000
+new line.68 phases=1 bus1=B60868.3 bus2=B2630.3
+~   rmatrix=[0.906576] xmatrix=[0.70768] cmatrix=[0] // len=2.45638
+new line.69 phases=3 bus1=B18821.1.2.3 bus2=B61161.1.2.3
+~   r1=0.11037 x1=0.06366 r0=0.15888 x0=0.19962 c1=0.01965 c0=0.01658 // len=0.12954
+new load.69_1 phases=3 bus1=B18821.1.2.3 kv=12.47 conn=wye model=2 kw=2.200 kvar=1.550
+new load.69_2 phases=3 bus1=B61161.1.2.3 kv=12.47 conn=wye model=2 kw=2.200 kvar=1.550
+new line.70 phases=3 bus1=B18821.1.2.3 bus2=B61423.1.2.3
+~   r1=0.01822 x1=0.01056 r0=0.02625 x0=0.03322 c1=0.01965 c0=0.01658 // len=0.02133
+new line.71 phases=1 bus1=B63378.3 bus2=B35443.3
+~   rmatrix=[3.091790] xmatrix=[1.87842] cmatrix=[0] // len=0.00000
+new line.72 phases=1 bus1=G36748.1 bus2=B4541.1
+~   rmatrix=[0.300130] xmatrix=[0.36957] cmatrix=[0] // len=9.31068
+new line.73 phases=1 bus1=G42394.3 bus2=B47983.3
+~   rmatrix=[0.724850] xmatrix=[0.41151] cmatrix=[0] // len=7.42336

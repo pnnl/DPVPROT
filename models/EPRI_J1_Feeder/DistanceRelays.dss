@@ -1,0 +1,14 @@
+//new relay.Fdr type=distance monitoredobj=line.OH_B5218 monitoredterm=1 switchedterm=1
+//~ recloseintervals=(2, 2, 5) breakertime=0.032 Reset=0.2 delay=0.19 Mphase=12.0 Mground=12.0
+//new relay.A like=Fdr monitoredobj=line.OH_B4808  delay=0.12 Mphase=20.0 Mground=20.0
+//new relay.B like=Fdr monitoredobj=line.OH_B4760  delay=0.01 Mphase=20.0 Mground=20.0
+//new relay.C like=Fdr monitoredobj=line.OH_B18859 delay=0.07 Mphase=7.0 Mground=7.0
+//new relay.D like=Fdr monitoredobj=line.OH_B19006 delay=0.01 Mphase=12.0 Mground=12.0
+
+new relay.Fdr type=distance monitoredobj=line.OH_B5218 monitoredterm=1 switchedterm=1
+~ recloseintervals=(2, 2, 5) breakertime=0.032 Reset=60.0 delay=0.19 Z1MAG=4.27 Z1ANG=49.58 Z0MAG=6.67 Z0ANG=56.37 Mphase=1.0 Mground=2.5 phasetrip=300
+new relay.A like=Fdr monitoredobj=line.OH_B4808  delay=0.12 Z1MAG=4.06 Z1ANG=43.99 Z0MAG=2.64 Z0ANG=15.50 Mphase=1.0 Mground=2.5 phasetrip=250
+new relay.B like=Fdr monitoredobj=line.OH_B4760  delay=0.01 Z1MAG=9.84 Z1ANG=35.29 Z0MAG=5.77 Z0ANG=19.68 Mphase=1.0 Mground=2.5 phasetrip=250
+new relay.C like=Fdr monitoredobj=line.OH_B18859 delay=0.07 Z1MAG=8.17 Z1ANG=40.60 Z0MAG=7.88 Z0ANG=42.57 Mphase=1.0 Mground=2.5 phasetrip=150
+new relay.D like=Fdr monitoredobj=line.OH_B19006 delay=0.01 Z1MAG=9.15 Z1ANG=42.11 Z0MAG=5.92 Z0ANG=34.46 Mphase=1.0 Mground=2.5 phasetrip=150
+

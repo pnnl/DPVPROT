@@ -1,0 +1,561 @@
+Bus,Nphases,Rf,If,Status,Cleared?,Tcleared,Nopen,Nreclosed,Nfailed,Nfalse,Npv,Sopen,Sreclosed,Sfailed,Sfalse,Spv
+1 of 25 faults at B24288.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B24288.3",1,0.010,517.9,SOLVED,True,0.0760,0,1,0,0,0,"","relay.b","","",""
+2 of 25 faults at B4806, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B4806",3,0.010,1807.9,SOLVED,True,0.0560,0,1,0,0,0,"","relay.a","","",""
+3 of 25 faults at B4806.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B4806.1.2",2,0.010,1705.2,SOLVED,True,0.0600,0,1,0,0,0,"","relay.a","","",""
+4 of 25 faults at B4806.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B4806.3",1,0.010,1342.1,SOLVED,True,0.0560,0,1,0,0,0,"","relay.a","","",""
+5 of 25 faults at B4538, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4538",3,0.010,1180.5,SOLVED,True,0.0480,0,1,0,0,0,"","relay.b","","",""
+6 of 25 faults at B4538.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4538.1.2",2,0.010,1073.5,SOLVED,True,0.0520,0,1,0,0,0,"","relay.b","","",""
+7 of 25 faults at B4538.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4538.3",1,0.010,815.3,SOLVED,True,0.0480,0,1,0,0,0,"","relay.b","","",""
+8 of 25 faults at B4760, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4760",3,0.010,1720.9,SOLVED,True,0.0480,0,1,0,0,0,"","relay.b","","",""
+9 of 25 faults at B4760.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4760.1.2",2,0.010,1618.3,SOLVED,True,0.0480,0,1,0,0,0,"","relay.b","","",""
+10 of 25 faults at B4760.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4760.3",1,0.010,1265.5,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+11 of 25 faults at B4630, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4630",3,0.010,1693.9,SOLVED,True,0.0480,0,1,0,0,0,"","relay.b","","",""
+12 of 25 faults at B4630.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4630.1.2",2,0.010,1589.8,SOLVED,True,0.0480,0,1,0,0,0,"","relay.b","","",""
+13 of 25 faults at B4630.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4630.3",1,0.010,1243.5,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+14 of 25 faults at B4881, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B4881",3,0.010,1925.8,SOLVED,True,0.0920,0,1,0,0,0,"","relay.fdr","","",""
+15 of 25 faults at B4881.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B4881.1.2",2,0.010,1815.7,SOLVED,True,0.1000,0,1,0,0,0,"","relay.fdr","","",""
+16 of 25 faults at B4881.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B4881.3",1,0.010,1443.8,SOLVED,True,0.0880,0,1,0,0,0,"","relay.fdr","","",""
+17 of 25 faults at B5218, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B5218",3,0.010,4026.4,SOLVED,True,0.0480,0,1,0,0,0,"","relay.fdr","","",""
+18 of 25 faults at B5218.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B5218.1.2",2,0.010,4112.6,SOLVED,True,0.0440,0,1,0,0,0,"","relay.fdr","","",""
+19 of 25 faults at B5218.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B5218.3",1,0.010,4121.6,SOLVED,True,0.0440,0,1,0,0,0,"","relay.fdr","","",""
+20 of 25 faults at B18859, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c']
+"B18859",3,0.010,1364.5,SOLVED,True,0.0480,0,1,0,0,0,"","relay.c","","",""
+21 of 25 faults at B18859.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c']
+"B18859.1.2",2,0.010,1268.0,SOLVED,True,0.0480,0,1,0,0,0,"","relay.c","","",""
+22 of 25 faults at B18859.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c']
+"B18859.3",1,0.010,973.3,SOLVED,True,0.0480,0,1,0,0,0,"","relay.c","","",""
+23 of 25 faults at B19006.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"B19006.1.2",2,0.010,717.9,SOLVED,True,0.0560,0,1,0,0,0,"","relay.d","","",""
+24 of 25 faults at B19006.2, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"B19006.2",1,0.010,562.6,SOLVED,True,0.0520,0,1,0,0,0,"","relay.d","","",""
+25 of 25 faults at 5962929303.2, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"5962929303.2",1,0.010,384.0,SOLVED,True,0.0960,0,1,0,0,0,"","relay.d","","",""
+Uncleared Faults:  
+Failed Trip Devices/Faults:
+False Trip Devices/Faults:
+Locked Open,Reclosed,Failed to Trip,False Trips,PV Trips,Faults,Uncleared,Tmin,Tmax,Tmean,Tstd
+0,25,0,0,0,25,0,0.044,0.100,0.058,0.018
+Uncleared = 0
+Nfailed   = 0
+Nfalse    = 0
+Npv       = 0
+Tmean = 0.058
+Bus,Nphases,Rf,If,Status,Cleared?,Tcleared,Nopen,Nreclosed,Nfailed,Nfalse,Npv,Sopen,Sreclosed,Sfailed,Sfalse,Spv
+1 of 25 faults at B24288.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B24288.3",1,0.010,552.0,SOLVED,True,0.0680,0,1,0,0,0,"","relay.b","","",""
+2 of 25 faults at B4806, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B4806",3,0.010,2389.8,SOLVED,True,50.0040,13,0,0,0,12,"relay.pv_pvx11,relay.pv_pvx3,relay.pv_pvx13,relay.pv_pvx10,relay.pv_pvx5,relay.pv_pv2,relay.pv_pv4,relay.pv_pvx9,relay.pv_pv1,relay.pv_pvx2,relay.pv_pv3,relay.pv_pvx12,relay.a","","","","relay.pv_pvx11,relay.pv_pvx3,relay.pv_pvx13,relay.pv_pvx10,relay.pv_pvx5,relay.pv_pv2,relay.pv_pv4,relay.pv_pvx9,relay.pv_pv1,relay.pv_pvx2,relay.pv_pv3,relay.pv_pvx12"
+3 of 25 faults at B4806.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B4806.1.2",2,0.010,1749.1,SOLVED,True,13.0040,15,0,0,2,12,"relay.pv_pvx11,relay.pv_pvx3,relay.b,relay.pv_pvx13,relay.pv_pv2,relay.pv_pvx10,relay.pv_pvx5,relay.pv_pv4,relay.pv_pvx9,relay.pv_pv1,relay.pv_pvx2,relay.pv_pv3,relay.pv_pvx12,relay.c,relay.a","","","relay.c,relay.b","relay.pv_pvx11,relay.pv_pvx3,relay.pv_pvx13,relay.pv_pv2,relay.pv_pvx10,relay.pv_pvx5,relay.pv_pv4,relay.pv_pvx9,relay.pv_pv1,relay.pv_pvx2,relay.pv_pv3,relay.pv_pvx12"
+4 of 25 faults at B4806.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B4806.3",1,0.010,1408.9,SOLVED,True,13.1280,13,2,0,2,12,"relay.pv_pvx11,relay.pv_pvx3,relay.pv_pvx13,relay.pv_pv2,relay.pv_pvx10,relay.pv_pvx5,relay.pv_pv4,relay.pv_pvx9,relay.pv_pv1,relay.pv_pvx2,relay.pv_pv3,relay.pv_pvx12,relay.a","relay.c,relay.d","","relay.c,relay.d","relay.pv_pvx11,relay.pv_pvx3,relay.pv_pvx13,relay.pv_pv2,relay.pv_pvx10,relay.pv_pvx5,relay.pv_pv4,relay.pv_pvx9,relay.pv_pv1,relay.pv_pvx2,relay.pv_pv3,relay.pv_pvx12"
+5 of 25 faults at B4538, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B4538",3,0.010,1260.8,SOLVED,True,0.0480,0,1,0,0,0,"","relay.b","","",""
+6 of 25 faults at B4538.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B4538.1.2",2,0.010,1137.3,SOLVED,True,0.0520,0,1,0,0,0,"","relay.b","","",""
+7 of 25 faults at B4538.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B4538.3",1,0.010,860.9,SOLVED,True,0.0480,0,1,0,0,0,"","relay.b","","",""
+8 of 25 faults at B4760, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B4760",3,0.010,2198.8,SOLVED,True,0.0480,0,3,0,2,0,"","relay.a,relay.b,relay.d","","relay.a,relay.d",""
+9 of 25 faults at B4760.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B4760.1.2",2,0.010,1662.7,SOLVED,True,0.0480,0,3,0,2,0,"","relay.a,relay.b,relay.d","","relay.a,relay.d",""
+10 of 25 faults at B4760.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B4760.3",1,0.010,1328.6,SOLVED,True,0.0440,0,3,0,2,0,"","relay.a,relay.b,relay.d","","relay.a,relay.d",""
+11 of 25 faults at B4630, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B4630",3,0.010,2192.6,SOLVED,True,0.0440,0,3,0,2,0,"","relay.a,relay.b,relay.d","","relay.a,relay.d",""
+12 of 25 faults at B4630.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B4630.1.2",2,0.010,1647.8,SOLVED,True,0.0480,0,3,0,2,0,"","relay.a,relay.b,relay.d","","relay.a,relay.d",""
+13 of 25 faults at B4630.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B4630.3",1,0.010,1305.5,SOLVED,True,0.0440,0,3,0,2,0,"","relay.a,relay.b,relay.d","","relay.a,relay.d",""
+14 of 25 faults at B4881, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B4881",3,0.010,2529.1,SOLVED,True,0.3720,0,3,0,2,0,"","relay.fdr,relay.a,relay.d","","relay.a,relay.d",""
+15 of 25 faults at B4881.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B4881.1.2",2,0.010,1842.5,SOLVED,True,0.3760,0,3,0,2,0,"","relay.fdr,relay.a,relay.d","","relay.a,relay.d",""
+16 of 25 faults at B4881.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B4881.3",1,0.010,1501.4,SOLVED,True,0.3760,0,3,0,2,0,"","relay.fdr,relay.a,relay.d","","relay.a,relay.d",""
+17 of 25 faults at B5218, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B5218",3,0.010,4600.8,SOLVED,True,0.3880,0,3,0,2,0,"","relay.fdr,relay.a,relay.d","","relay.a,relay.d",""
+18 of 25 faults at B5218.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B5218.1.2",2,0.010,3885.3,SOLVED,True,0.4000,0,3,0,2,0,"","relay.fdr,relay.a,relay.d","","relay.a,relay.d",""
+19 of 25 faults at B5218.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B5218.3",1,0.010,4109.1,SOLVED,True,0.4080,0,3,0,2,0,"","relay.fdr,relay.d,relay.a","","relay.d,relay.a",""
+20 of 25 faults at B18859, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B18859",3,0.010,1467.3,SOLVED,True,21.0000,7,0,0,0,6,"relay.pv_pvx11,relay.pv_pvx3,relay.pv_pvx10,relay.pv_pvx5,relay.pv_pvx9,relay.pv_pvx12,relay.c","","","","relay.pv_pvx11,relay.pv_pvx3,relay.pv_pvx10,relay.pv_pvx5,relay.pv_pvx9,relay.pv_pvx12"
+21 of 25 faults at B18859.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B18859.1.2",2,0.010,1353.3,SOLVED,True,0.0480,0,1,0,0,0,"","relay.c","","",""
+22 of 25 faults at B18859.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B18859.3",1,0.010,1035.3,SOLVED,True,4.1440,0,1,0,0,0,"","relay.c","","",""
+23 of 25 faults at B19006.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B19006.1.2",2,0.010,782.1,SOLVED,True,0.0520,0,1,0,0,0,"","relay.d","","",""
+24 of 25 faults at B19006.2, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"B19006.2",1,0.010,603.3,SOLVED,True,0.0520,0,1,0,0,0,"","relay.d","","",""
+25 of 25 faults at 5962929303.2, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d', 'relay.pv_pv1', 'relay.pv_pv2', 'relay.pv_pv3', 'relay.pv_pv4', 'relay.pv_pvx2', 'relay.pv_pvx3', 'relay.pv_pvx5', 'relay.pv_pvx7', 'relay.pv_pvx9', 'relay.pv_pvx10', 'relay.pv_pvx11', 'relay.pv_pvx12', 'relay.pv_pvx13']
+"5962929303.2",1,0.010,411.5,SOLVED,True,0.0800,0,1,0,0,0,"","relay.d","","",""
+Uncleared Faults:  
+Failed Trip Devices/Faults:
+False Trip Devices/Faults:
+  relay.b,B4806.1.2
+  relay.c,B4806.1.2,B4806.3
+  relay.d,B4806.3,B4760,B4760.1.2,B4760.3,B4630,B4630.1.2,B4630.3,B4881,B4881.1.2,B4881.3,B5218,B5218.1.2,B5218.3
+  relay.a,B4760,B4760.1.2,B4760.3,B4630,B4630.1.2,B4630.3,B4881,B4881.1.2,B4881.3,B5218,B5218.1.2,B5218.3
+Locked Open,Reclosed,Failed to Trip,False Trips,PV Trips,Faults,Uncleared,Tmin,Tmax,Tmean,Tstd
+48,47,0,28,42,25,0,0.044,50.004,4.173,10.927
+Uncleared = 0
+Nfailed   = 0
+Nfalse    = 28
+Npv       = 42
+Tmean = 4.173
+Bus,Nphases,Rf,If,Status,Cleared?,Tcleared,Nopen,Nreclosed,Nfailed,Nfalse,Npv,Sopen,Sreclosed,Sfailed,Sfalse,Spv
+1 of 25 faults at B24288.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B24288.3",1,0.010,517.9,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+2 of 25 faults at B4806, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B4806",3,0.010,1807.9,SOLVED,True,0.1520,0,1,0,0,0,"","relay.a","","",""
+3 of 25 faults at B4806.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B4806.1.2",2,0.010,1705.2,SOLVED,True,0.1520,0,2,0,1,0,"","relay.b,relay.a","","relay.b",""
+4 of 25 faults at B4806.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B4806.3",1,0.010,1342.1,SOLVED,True,0.1520,0,1,0,0,0,"","relay.a","","",""
+5 of 25 faults at B4538, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4538",3,0.010,1180.5,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+6 of 25 faults at B4538.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4538.1.2",2,0.010,1073.5,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+7 of 25 faults at B4538.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4538.3",1,0.010,815.3,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+8 of 25 faults at B4760, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4760",3,0.010,1720.9,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+9 of 25 faults at B4760.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4760.1.2",2,0.010,1618.3,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+10 of 25 faults at B4760.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4760.3",1,0.010,1265.5,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+11 of 25 faults at B4630, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4630",3,0.010,1693.9,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+12 of 25 faults at B4630.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4630.1.2",2,0.010,1589.8,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+13 of 25 faults at B4630.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4630.3",1,0.010,1243.5,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+14 of 25 faults at B4881, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B4881",3,0.010,1925.8,SOLVED,True,0.2240,0,1,0,0,0,"","relay.fdr","","",""
+15 of 25 faults at B4881.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B4881.1.2",2,0.010,1815.7,SOLVED,True,0.2240,0,3,0,2,0,"","relay.fdr,relay.b,relay.a","","relay.b,relay.a",""
+16 of 25 faults at B4881.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B4881.3",1,0.010,1443.8,SOLVED,True,0.2240,0,3,0,2,0,"","relay.fdr,relay.b,relay.a","","relay.b,relay.a",""
+17 of 25 faults at B5218, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B5218",3,0.010,4026.4,SOLVED,True,0.2240,0,1,0,0,0,"","relay.fdr","","",""
+18 of 25 faults at B5218.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B5218.1.2",2,0.010,4112.6,SOLVED,True,0.2240,0,2,0,1,0,"","relay.fdr,relay.a","","relay.a",""
+19 of 25 faults at B5218.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B5218.3",1,0.010,4121.6,SOLVED,True,0.2240,0,2,0,1,0,"","relay.fdr,relay.a","","relay.a",""
+20 of 25 faults at B18859, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c']
+"B18859",3,0.010,1364.5,SOLVED,True,0.1040,0,1,0,0,0,"","relay.c","","",""
+21 of 25 faults at B18859.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c']
+"B18859.1.2",2,0.010,1268.0,SOLVED,True,0.1040,0,1,0,0,0,"","relay.c","","",""
+22 of 25 faults at B18859.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c']
+"B18859.3",1,0.010,973.3,SOLVED,True,0.1040,0,1,0,0,0,"","relay.c","","",""
+23 of 25 faults at B19006.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"B19006.1.2",2,0.010,717.9,SOLVED,True,0.0440,0,1,0,0,0,"","relay.d","","",""
+24 of 25 faults at B19006.2, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"B19006.2",1,0.010,562.6,SOLVED,True,0.0440,0,1,0,0,0,"","relay.d","","",""
+25 of 25 faults at 5962929303.2, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"5962929303.2",1,0.010,384.0,SOLVED,True,0.0440,0,1,0,0,0,"","relay.d","","",""
+Uncleared Faults:  
+Failed Trip Devices/Faults:
+False Trip Devices/Faults:
+  relay.b,B4806.1.2,B4881.1.2,B4881.3
+  relay.a,B4881.1.2,B4881.3,B5218.1.2,B5218.3
+Locked Open,Reclosed,Failed to Trip,False Trips,PV Trips,Faults,Uncleared,Tmin,Tmax,Tmean,Tstd
+0,32,0,7,0,25,0,0.044,0.224,0.107,0.076
+Uncleared = 0
+Nfailed   = 0
+Nfalse    = 7
+Npv       = 0
+Tmean = 0.107
+Bus,Nphases,Rf,If,Status,Cleared?,Tcleared,Nopen,Nreclosed,Nfailed,Nfalse,Npv,Sopen,Sreclosed,Sfailed,Sfalse,Spv
+1 of 25 faults at B24288.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B24288.3",1,0.010,552.0,SOLVED,True,0.0440,3,0,4,2,0,"relay.dist_pvx2,relay.b,relay.dist_pvx13","","relay.dist_pv3,relay.dist_pv1,relay.dist_pv2,relay.dist_pv4","relay.dist_pvx2,relay.dist_pvx13",""
+2 of 25 faults at B4806, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B4806",3,0.010,2381.9,SOLVED,True,0.5320,14,0,0,13,0,"relay.dist_pvx5,relay.dist_pv1,relay.dist_pvx10,relay.dist_pvx12,relay.b,relay.dist_pvx3,relay.dist_pvx11,relay.dist_pv3,relay.a,relay.dist_pv2,relay.dist_pv4,relay.dist_pvx9,relay.dist_pvx13,relay.dist_pvx2","","","relay.dist_pvx5,relay.dist_pv1,relay.dist_pvx10,relay.dist_pvx12,relay.b,relay.dist_pvx3,relay.dist_pvx11,relay.dist_pv3,relay.dist_pv2,relay.dist_pv4,relay.dist_pvx9,relay.dist_pvx13,relay.dist_pvx2",""
+3 of 25 faults at B4806.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B4806.1.2",2,0.010,1749.1,SOLVED,True,0.5320,13,0,0,12,0,"relay.dist_pv1,relay.dist_pvx10,relay.dist_pvx12,relay.b,relay.dist_pvx3,relay.dist_pv3,relay.dist_pvx11,relay.a,relay.dist_pv2,relay.dist_pv4,relay.dist_pvx9,relay.dist_pvx13,relay.dist_pvx2","","","relay.dist_pv1,relay.dist_pvx10,relay.dist_pvx12,relay.b,relay.dist_pvx3,relay.dist_pv3,relay.dist_pvx11,relay.dist_pv2,relay.dist_pv4,relay.dist_pvx9,relay.dist_pvx13,relay.dist_pvx2",""
+4 of 25 faults at B4806.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B4806.3",1,0.010,1407.2,SOLVED,True,0.6960,12,0,1,12,0,"relay.dist_pv1,relay.c,relay.dist_pvx12,relay.b,relay.dist_pvx3,relay.dist_pv3,relay.dist_pv2,relay.fdr,relay.dist_pvx9,relay.dist_pv4,relay.dist_pvx13,relay.dist_pvx2","","relay.a","relay.dist_pv1,relay.c,relay.dist_pvx12,relay.b,relay.dist_pvx3,relay.dist_pv3,relay.dist_pv2,relay.fdr,relay.dist_pvx9,relay.dist_pv4,relay.dist_pvx13,relay.dist_pvx2",""
+5 of 25 faults at B4538, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4538",3,0.010,1260.8,SOLVED,True,0.0440,3,0,0,2,0,"relay.dist_pvx2,relay.b,relay.dist_pvx13","","","relay.dist_pvx2,relay.dist_pvx13",""
+6 of 25 faults at B4538.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4538.1.2",2,0.010,1137.3,SOLVED,True,0.0440,3,0,0,2,0,"relay.dist_pvx2,relay.b,relay.dist_pvx13","","","relay.dist_pvx2,relay.dist_pvx13",""
+7 of 25 faults at B4538.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4538.3",1,0.010,860.9,SOLVED,True,0.0440,3,0,0,2,0,"relay.dist_pvx2,relay.b,relay.dist_pvx13","","","relay.dist_pvx2,relay.dist_pvx13",""
+8 of 25 faults at B4760, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4760",3,0.010,2198.8,SOLVED,True,0.0440,3,0,0,2,0,"relay.dist_pvx2,relay.b,relay.dist_pvx13","","","relay.dist_pvx2,relay.dist_pvx13",""
+9 of 25 faults at B4760.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4760.1.2",2,0.010,1662.7,SOLVED,True,0.0440,3,0,0,2,0,"relay.dist_pvx2,relay.b,relay.dist_pvx13","","","relay.dist_pvx2,relay.dist_pvx13",""
+10 of 25 faults at B4760.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4760.3",1,0.010,1328.6,SOLVED,True,0.0440,3,0,0,2,0,"relay.dist_pvx2,relay.b,relay.dist_pvx13","","","relay.dist_pvx2,relay.dist_pvx13",""
+11 of 25 faults at B4630, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B4630",3,0.010,2192.6,SOLVED,True,0.0440,3,0,4,2,0,"relay.dist_pvx2,relay.b,relay.dist_pvx13","","relay.dist_pv3,relay.dist_pv1,relay.dist_pv2,relay.dist_pv4","relay.dist_pvx2,relay.dist_pvx13",""
+12 of 25 faults at B4630.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B4630.1.2",2,0.010,1647.8,SOLVED,True,0.0440,3,0,4,2,0,"relay.dist_pvx2,relay.b,relay.dist_pvx13","","relay.dist_pv3,relay.dist_pv1,relay.dist_pv2,relay.dist_pv4","relay.dist_pvx2,relay.dist_pvx13",""
+13 of 25 faults at B4630.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B4630.3",1,0.010,1305.5,SOLVED,True,0.0440,3,0,4,2,0,"relay.dist_pvx2,relay.b,relay.dist_pvx13","","relay.dist_pv3,relay.dist_pv1,relay.dist_pv2,relay.dist_pv4","relay.dist_pvx2,relay.dist_pvx13",""
+14 of 25 faults at B4881, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B4881",3,0.010,2536.0,SOLVED,True,0.5320,14,0,0,9,0,"relay.dist_pvx5,relay.dist_pv1,relay.dist_pvx10,relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx11,relay.dist_pv3,relay.dist_pv2,relay.fdr,relay.dist_pvx9,relay.dist_pv4,relay.dist_pvx13,relay.dist_pvx7,relay.dist_pvx2","","","relay.dist_pvx5,relay.dist_pvx10,relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx11,relay.dist_pvx9,relay.dist_pvx13,relay.dist_pvx7,relay.dist_pvx2",""
+15 of 25 faults at B4881.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B4881.1.2",2,0.010,1842.5,SOLVED,True,0.5320,9,0,0,4,0,"relay.dist_pv1,relay.b,relay.dist_pv3,relay.dist_pv2,relay.fdr,relay.dist_pvx9,relay.dist_pv4,relay.dist_pvx13,relay.dist_pvx2","","","relay.dist_pvx9,relay.b,relay.dist_pvx13,relay.dist_pvx2",""
+16 of 25 faults at B4881.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B4881.3",1,0.010,1501.4,SOLVED,True,0.8600,12,0,0,7,0,"relay.dist_pv1,relay.c,relay.dist_pvx12,relay.b,relay.dist_pvx3,relay.dist_pv3,relay.dist_pv2,relay.fdr,relay.dist_pvx9,relay.dist_pv4,relay.dist_pvx13,relay.dist_pvx2","","","relay.c,relay.dist_pvx12,relay.b,relay.dist_pvx3,relay.dist_pvx9,relay.dist_pvx13,relay.dist_pvx2",""
+17 of 25 faults at B5218, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B5218",3,0.010,4646.3,SOLVED,True,50.0040,14,0,4,9,4,"relay.dist_pvx5,relay.dist_pvx10,relay.pv_pv2,relay.pv_pv3,relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx11,relay.fdr,relay.dist_pvx9,relay.pv_pv4,relay.pv_pv1,relay.dist_pvx13,relay.dist_pvx7,relay.dist_pvx2","","relay.dist_pv3,relay.dist_pv1,relay.dist_pv2,relay.dist_pv4","relay.dist_pvx5,relay.dist_pvx10,relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx11,relay.dist_pvx9,relay.dist_pvx13,relay.dist_pvx7,relay.dist_pvx2","relay.pv_pv3,relay.pv_pv4,relay.pv_pv1,relay.pv_pv2"
+18 of 25 faults at B5218.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B5218.1.2",2,0.010,4098.5,SOLVED,True,0.2240,2,0,4,1,0,"relay.a,relay.fdr","","relay.dist_pv3,relay.dist_pv1,relay.dist_pv2,relay.dist_pv4","relay.a",""
+19 of 25 faults at B5218.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B5218.3",1,0.010,4129.1,SOLVED,True,13.7640,14,0,4,6,7,"relay.dist_pvx5,relay.dist_pvx10,relay.pv_pv2,relay.pv_pv3,relay.dist_pvx11,relay.pv_pvx12,relay.pv_pvx3,relay.fdr,relay.dist_pvx9,relay.pv_pv4,relay.pv_pv1,relay.pv_pvx7,relay.dist_pvx13,relay.dist_pvx2","","relay.dist_pv3,relay.dist_pv1,relay.dist_pv2,relay.dist_pv4","relay.dist_pvx5,relay.dist_pvx10,relay.dist_pvx11,relay.dist_pvx2,relay.dist_pvx13,relay.dist_pvx9","relay.pv_pv2,relay.pv_pv3,relay.pv_pvx3,relay.pv_pvx12,relay.pv_pv4,relay.pv_pv1,relay.pv_pvx7"
+20 of 25 faults at B18859, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c']
+"B18859",3,0.010,1466.8,SOLVED,True,0.5320,7,0,0,6,0,"relay.dist_pvx5,relay.c,relay.dist_pvx10,relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx11,relay.dist_pvx9","","","relay.dist_pvx5,relay.dist_pvx10,relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx11,relay.dist_pvx9",""
+21 of 25 faults at B18859.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c']
+"B18859.1.2",2,0.010,1353.3,SOLVED,True,0.1040,4,0,0,3,0,"relay.dist_pvx9,relay.dist_pvx12,relay.c,relay.dist_pvx3","","","relay.dist_pvx9,relay.dist_pvx12,relay.dist_pvx3",""
+22 of 25 faults at B18859.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c']
+"B18859.3",1,0.010,1031.6,SOLVED,True,0.5320,7,0,0,6,0,"relay.dist_pvx5,relay.c,relay.dist_pvx10,relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx11,relay.dist_pvx9","","","relay.dist_pvx5,relay.dist_pvx10,relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx11,relay.dist_pvx9",""
+23 of 25 faults at B19006.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"B19006.1.2",2,0.010,782.1,SOLVED,True,0.0440,4,0,0,3,0,"relay.dist_pvx9,relay.dist_pvx12,relay.dist_pvx3,relay.d","","","relay.dist_pvx9,relay.dist_pvx12,relay.dist_pvx3",""
+24 of 25 faults at B19006.2, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"B19006.2",1,0.010,603.3,SOLVED,True,0.0440,4,0,0,3,0,"relay.dist_pvx9,relay.dist_pvx12,relay.dist_pvx3,relay.d","","","relay.dist_pvx9,relay.dist_pvx12,relay.dist_pvx3",""
+25 of 25 faults at 5962929303.2, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"5962929303.2",1,0.010,411.5,SOLVED,True,0.0440,4,0,0,3,0,"relay.dist_pvx9,relay.dist_pvx12,relay.dist_pvx3,relay.d","","","relay.dist_pvx9,relay.dist_pvx12,relay.dist_pvx3",""
+Uncleared Faults:  
+Failed Trip Devices/Faults:
+  relay.dist_pv1,B24288.3,B4630,B4630.1.2,B4630.3,B5218,B5218.1.2,B5218.3
+  relay.dist_pv2,B24288.3,B4630,B4630.1.2,B4630.3,B5218,B5218.1.2,B5218.3
+  relay.dist_pv3,B24288.3,B4630,B4630.1.2,B4630.3,B5218,B5218.1.2,B5218.3
+  relay.dist_pv4,B24288.3,B4630,B4630.1.2,B4630.3,B5218,B5218.1.2,B5218.3
+  relay.a,B4806.3
+False Trip Devices/Faults:
+  relay.dist_pvx2,B24288.3,B4806,B4806.1.2,B4806.3,B4538,B4538.1.2,B4538.3,B4760,B4760.1.2,B4760.3,B4630,B4630.1.2,B4630.3,B4881,B4881.1.2,B4881.3,B5218,B5218.3
+  relay.dist_pvx13,B24288.3,B4806,B4806.1.2,B4806.3,B4538,B4538.1.2,B4538.3,B4760,B4760.1.2,B4760.3,B4630,B4630.1.2,B4630.3,B4881,B4881.1.2,B4881.3,B5218,B5218.3
+  relay.dist_pvx5,B4806,B4881,B5218,B5218.3,B18859,B18859.3
+  relay.dist_pv1,B4806,B4806.1.2,B4806.3
+  relay.dist_pvx10,B4806,B4806.1.2,B4881,B5218,B5218.3,B18859,B18859.3
+  relay.dist_pvx12,B4806,B4806.1.2,B4806.3,B4881,B4881.3,B5218,B18859,B18859.1.2,B18859.3,B19006.1.2,B19006.2,5962929303.2
+  relay.b,B4806,B4806.1.2,B4806.3,B4881.1.2,B4881.3
+  relay.dist_pvx3,B4806,B4806.1.2,B4806.3,B4881,B4881.3,B5218,B18859,B18859.1.2,B18859.3,B19006.1.2,B19006.2,5962929303.2
+  relay.dist_pvx11,B4806,B4806.1.2,B4881,B5218,B5218.3,B18859,B18859.3
+  relay.dist_pv3,B4806,B4806.1.2,B4806.3
+  relay.dist_pv2,B4806,B4806.1.2,B4806.3
+  relay.dist_pv4,B4806,B4806.1.2,B4806.3
+  relay.dist_pvx9,B4806,B4806.1.2,B4806.3,B4881,B4881.1.2,B4881.3,B5218,B5218.3,B18859,B18859.1.2,B18859.3,B19006.1.2,B19006.2,5962929303.2
+  relay.c,B4806.3,B4881.3
+  relay.fdr,B4806.3
+  relay.dist_pvx7,B4881,B5218
+  relay.a,B5218.1.2
+Locked Open,Reclosed,Failed to Trip,False Trips,PV Trips,Faults,Uncleared,Tmin,Tmax,Tmean,Tstd
+164,0,29,117,11,25,0,0.044,50.004,2.777,10.206
+Uncleared = 0
+Nfailed   = 29
+Nfalse    = 117
+Npv       = 11
+Tmean = 2.777
+Bus,Nphases,Rf,If,Status,Cleared?,Tcleared,Nopen,Nreclosed,Nfailed,Nfalse,Npv,Sopen,Sreclosed,Sfailed,Sfalse,Spv
+1 of 25 faults at B24288.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B24288.3",1,0.010,517.9,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+2 of 25 faults at B4806, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B4806",3,0.010,1807.9,SOLVED,True,0.1520,0,1,0,0,0,"","relay.a","","",""
+3 of 25 faults at B4806.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B4806.1.2",2,0.010,1705.2,SOLVED,True,0.1520,0,1,0,0,0,"","relay.a","","",""
+4 of 25 faults at B4806.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B4806.3",1,0.010,1342.1,SOLVED,True,0.1520,0,1,0,0,0,"","relay.a","","",""
+5 of 25 faults at B4538, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4538",3,0.010,1180.5,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+6 of 25 faults at B4538.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4538.1.2",2,0.010,1073.5,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+7 of 25 faults at B4538.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4538.3",1,0.010,815.3,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+8 of 25 faults at B4760, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4760",3,0.010,1720.9,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+9 of 25 faults at B4760.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4760.1.2",2,0.010,1618.3,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+10 of 25 faults at B4760.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4760.3",1,0.010,1265.5,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+11 of 25 faults at B4630, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4630",3,0.010,1693.9,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+12 of 25 faults at B4630.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4630.1.2",2,0.010,1589.8,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+13 of 25 faults at B4630.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4630.3",1,0.010,1243.5,SOLVED,True,0.0440,0,1,0,0,0,"","relay.b","","",""
+14 of 25 faults at B4881, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B4881",3,0.010,1925.8,SOLVED,True,0.2240,0,1,0,0,0,"","relay.fdr","","",""
+15 of 25 faults at B4881.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B4881.1.2",2,0.010,1815.7,SOLVED,True,0.2240,0,1,0,0,0,"","relay.fdr","","",""
+16 of 25 faults at B4881.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B4881.3",1,0.010,1443.8,SOLVED,True,0.2240,0,1,0,0,0,"","relay.fdr","","",""
+17 of 25 faults at B5218, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B5218",3,0.010,4026.4,SOLVED,True,0.2240,0,1,0,0,0,"","relay.fdr","","",""
+18 of 25 faults at B5218.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B5218.1.2",2,0.010,4112.6,SOLVED,True,0.2240,0,1,0,0,0,"","relay.fdr","","",""
+19 of 25 faults at B5218.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr']
+"B5218.3",1,0.010,4121.6,SOLVED,True,0.2240,0,1,0,0,0,"","relay.fdr","","",""
+20 of 25 faults at B18859, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c']
+"B18859",3,0.010,1364.5,SOLVED,True,0.1040,0,1,0,0,0,"","relay.c","","",""
+21 of 25 faults at B18859.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c']
+"B18859.1.2",2,0.010,1268.0,SOLVED,True,0.1040,0,1,0,0,0,"","relay.c","","",""
+22 of 25 faults at B18859.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c']
+"B18859.3",1,0.010,973.3,SOLVED,True,0.1040,0,1,0,0,0,"","relay.c","","",""
+23 of 25 faults at B19006.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"B19006.1.2",2,0.010,717.9,SOLVED,True,0.0440,0,2,0,1,0,"","relay.d,relay.a","","relay.a",""
+24 of 25 faults at B19006.2, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"B19006.2",1,0.010,562.6,SOLVED,True,0.0440,0,2,0,1,0,"","relay.d,relay.a","","relay.a",""
+25 of 25 faults at 5962929303.2, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"5962929303.2",1,0.010,384.0,SOLVED,True,0.0440,0,1,0,0,0,"","relay.d","","",""
+Uncleared Faults:  
+Failed Trip Devices/Faults:
+False Trip Devices/Faults:
+  relay.a,B19006.1.2,B19006.2
+Locked Open,Reclosed,Failed to Trip,False Trips,PV Trips,Faults,Uncleared,Tmin,Tmax,Tmean,Tstd
+0,27,0,2,0,25,0,0.044,0.224,0.107,0.076
+Uncleared = 0
+Nfailed   = 0
+Nfalse    = 2
+Npv       = 0
+Tmean = 0.107
+Bus,Nphases,Rf,If,Status,Cleared?,Tcleared,Nopen,Nreclosed,Nfailed,Nfalse,Npv,Sopen,Sreclosed,Sfailed,Sfalse,Spv
+1 of 25 faults at B24288.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B24288.3",1,0.010,552.0,SOLVED,True,0.0440,9,0,4,8,0,"relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx2,relay.b,relay.dist_pvx13,relay.a,relay.dist_pvx11,relay.dist_pvx9","","relay.dist_pv4,relay.dist_pv1,relay.dist_pv2,relay.dist_pv3","relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx2,relay.dist_pvx13,relay.a,relay.dist_pvx11,relay.dist_pvx9",""
+2 of 25 faults at B4806, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B4806",3,0.010,2389.6,SOLVED,True,50.0040,14,0,0,9,4,"relay.dist_pvx12,relay.pv_pv2,relay.dist_pvx9,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx2,relay.dist_pvx13,relay.dist_pvx7,relay.pv_pv1,relay.a,relay.dist_pvx11,relay.dist_pvx5,relay.pv_pv4,relay.pv_pv3","","","relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx2,relay.dist_pvx13,relay.dist_pvx7,relay.dist_pvx11,relay.dist_pvx5","relay.pv_pv1,relay.pv_pv2,relay.pv_pv4,relay.pv_pv3"
+3 of 25 faults at B4806.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B4806.1.2",2,0.010,1752.5,SOLVED,True,13.0040,14,0,0,9,4,"relay.dist_pvx12,relay.pv_pvx5,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx2,relay.pv_pvx13,relay.dist_pv2,relay.dist_pvx7,relay.dist_pv3,relay.pv_pv1,relay.a,relay.dist_pvx11,relay.dist_pvx9,relay.pv_pv4","","","relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx2,relay.dist_pv2,relay.dist_pvx7,relay.dist_pv3,relay.dist_pvx11,relay.dist_pvx9","relay.pv_pv1,relay.pv_pvx5,relay.pv_pv4,relay.pv_pvx13"
+4 of 25 faults at B4806.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.a']
+"B4806.3",1,0.010,1407.2,SOLVED,True,21.0000,13,0,0,5,7,"relay.dist_pvx12,relay.pv_pvx5,relay.pv_pv2,relay.dist_pvx3,relay.dist_pvx2,relay.dist_pvx13,relay.pv_pvx11,relay.pv_pv1,relay.a,relay.dist_pvx9,relay.pv_pv4,relay.pv_pv3,relay.pv_pvx10","","","relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx2,relay.dist_pvx13,relay.dist_pvx9","relay.pv_pvx5,relay.pv_pv2,relay.pv_pvx11,relay.pv_pv1,relay.pv_pv4,relay.pv_pv3,relay.pv_pvx10"
+5 of 25 faults at B4538, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4538",3,0.010,1260.8,SOLVED,True,0.0440,10,0,0,9,0,"relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx2,relay.b,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx9","","","relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx2,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx9",""
+6 of 25 faults at B4538.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4538.1.2",2,0.010,1137.3,SOLVED,True,0.0440,10,0,0,9,0,"relay.dist_pvx12,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.b,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx9","","","relay.dist_pvx12,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx9",""
+7 of 25 faults at B4538.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4538.3",1,0.010,860.9,SOLVED,True,0.0440,9,0,0,8,0,"relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx2,relay.b,relay.dist_pvx13,relay.a,relay.dist_pvx11,relay.dist_pvx9","","","relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx2,relay.dist_pvx13,relay.a,relay.dist_pvx11,relay.dist_pvx9",""
+8 of 25 faults at B4760, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4760",3,0.010,2198.8,SOLVED,True,0.0480,10,0,0,9,0,"relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx2,relay.b,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx9","","","relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx2,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx9",""
+9 of 25 faults at B4760.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4760.1.2",2,0.010,1662.7,SOLVED,True,0.0440,10,0,0,9,0,"relay.dist_pvx12,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.b,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx9","","","relay.dist_pvx12,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx9",""
+10 of 25 faults at B4760.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b']
+"B4760.3",1,0.010,1328.6,SOLVED,True,0.0440,9,0,0,8,0,"relay.dist_pvx12,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.b,relay.dist_pvx13,relay.a,relay.dist_pvx11,relay.dist_pvx9","","","relay.dist_pvx12,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.dist_pvx13,relay.a,relay.dist_pvx11,relay.dist_pvx9",""
+11 of 25 faults at B4630, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B4630",3,0.010,2192.6,SOLVED,True,0.0440,10,0,4,9,0,"relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx2,relay.b,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx9","","relay.dist_pv4,relay.dist_pv1,relay.dist_pv2,relay.dist_pv3","relay.dist_pvx12,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx2,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx9",""
+12 of 25 faults at B4630.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B4630.1.2",2,0.010,1647.8,SOLVED,True,0.0440,10,0,4,9,0,"relay.dist_pvx12,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.b,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx9","","relay.dist_pv4,relay.dist_pv1,relay.dist_pv2,relay.dist_pv3","relay.dist_pvx12,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx9",""
+13 of 25 faults at B4630.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.b', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B4630.3",1,0.010,1305.5,SOLVED,True,0.0440,9,0,4,8,0,"relay.dist_pvx12,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.b,relay.dist_pvx13,relay.a,relay.dist_pvx11,relay.dist_pvx9","","relay.dist_pv4,relay.dist_pv1,relay.dist_pv2,relay.dist_pv3","relay.dist_pvx12,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.dist_pvx13,relay.a,relay.dist_pvx11,relay.dist_pvx9",""
+14 of 25 faults at B4881, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B4881",3,0.010,2532.6,SOLVED,True,0.2240,11,0,4,10,0,"relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.fdr,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx5","","relay.dist_pv4,relay.dist_pv1,relay.dist_pv2,relay.dist_pv3","relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx5",""
+15 of 25 faults at B4881.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B4881.1.2",2,0.010,1842.5,SOLVED,True,0.2240,9,0,4,8,0,"relay.dist_pvx12,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.fdr,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx9","","relay.dist_pv4,relay.dist_pv1,relay.dist_pv2,relay.dist_pv3","relay.dist_pvx12,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx9",""
+16 of 25 faults at B4881.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B4881.3",1,0.010,1501.4,SOLVED,True,0.2240,11,0,4,10,0,"relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.fdr,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx5","","relay.dist_pv4,relay.dist_pv1,relay.dist_pv2,relay.dist_pv3","relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx5",""
+17 of 25 faults at B5218, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B5218",3,0.010,4630.5,SOLVED,True,0.2240,11,0,4,10,0,"relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.fdr,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx5","","relay.dist_pv4,relay.dist_pv1,relay.dist_pv2,relay.dist_pv3","relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx5",""
+18 of 25 faults at B5218.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B5218.1.2",2,0.010,4098.5,SOLVED,True,0.2240,9,0,4,8,0,"relay.dist_pvx12,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.fdr,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx9","","relay.dist_pv4,relay.dist_pv1,relay.dist_pv2,relay.dist_pv3","relay.dist_pvx12,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx9",""
+19 of 25 faults at B5218.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.fdr', 'relay.dist_pv1', 'relay.dist_pv2', 'relay.dist_pv3', 'relay.dist_pv4']
+"B5218.3",1,0.010,4129.3,SOLVED,True,2.4520,11,0,4,10,0,"relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.fdr,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx5","","relay.dist_pv4,relay.dist_pv1,relay.dist_pv2,relay.dist_pv3","relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx2,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx5",""
+20 of 25 faults at B18859, 3 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c']
+"B18859",3,0.010,1466.8,SOLVED,True,0.5360,9,0,0,8,0,"relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx7,relay.c,relay.a,relay.dist_pvx11,relay.dist_pvx5","","","relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx5",""
+21 of 25 faults at B18859.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c']
+"B18859.1.2",2,0.010,1353.3,SOLVED,True,0.1040,10,0,0,9,0,"relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx2,relay.dist_pvx7,relay.c,relay.a,relay.dist_pvx11,relay.dist_pvx5","","","relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx3,relay.dist_pvx10,relay.dist_pvx2,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx5",""
+22 of 25 faults at B18859.3, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.c']
+"B18859.3",1,0.010,1031.6,SOLVED,True,0.5440,8,0,0,7,0,"relay.dist_pvx12,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx5,relay.c,relay.a,relay.dist_pvx11,relay.dist_pvx9","","","relay.dist_pvx12,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx5,relay.a,relay.dist_pvx11,relay.dist_pvx9",""
+23 of 25 faults at B19006.1.2, 2 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"B19006.1.2",2,0.010,782.1,SOLVED,True,0.0440,10,0,0,9,0,"relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx10,relay.dist_pvx3,relay.d,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx5","","","relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx5",""
+24 of 25 faults at B19006.2, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"B19006.2",1,0.010,603.3,SOLVED,True,0.0440,10,0,0,9,0,"relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx10,relay.d,relay.dist_pvx3,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx5","","","relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx10,relay.dist_pvx3,relay.dist_pvx13,relay.dist_pvx7,relay.a,relay.dist_pvx11,relay.dist_pvx5",""
+25 of 25 faults at 5962929303.2, 1 phases, rf=0.010, ontime=0.100, temporary=yes
+  target devices are  ['relay.d']
+"5962929303.2",1,0.010,411.5,SOLVED,True,0.0440,5,0,0,4,0,"relay.dist_pvx12,relay.d,relay.dist_pvx3,relay.dist_pvx7,relay.dist_pvx9","","","relay.dist_pvx12,relay.dist_pvx9,relay.dist_pvx3,relay.dist_pvx7",""
+Uncleared Faults:  
+Failed Trip Devices/Faults:
+  relay.dist_pv1,B24288.3,B4630,B4630.1.2,B4630.3,B4881,B4881.1.2,B4881.3,B5218,B5218.1.2,B5218.3
+  relay.dist_pv2,B24288.3,B4630,B4630.1.2,B4630.3,B4881,B4881.1.2,B4881.3,B5218,B5218.1.2,B5218.3
+  relay.dist_pv3,B24288.3,B4630,B4630.1.2,B4630.3,B4881,B4881.1.2,B4881.3,B5218,B5218.1.2,B5218.3
+  relay.dist_pv4,B24288.3,B4630,B4630.1.2,B4630.3,B4881,B4881.1.2,B4881.3,B5218,B5218.1.2,B5218.3
+False Trip Devices/Faults:
+  relay.dist_pvx12,B24288.3,B4806,B4806.1.2,B4806.3,B4538,B4538.1.2,B4538.3,B4760,B4760.1.2,B4760.3,B4630,B4630.1.2,B4630.3,B4881,B4881.1.2,B4881.3,B5218,B5218.1.2,B5218.3,B18859,B18859.1.2,B18859.3,B19006.1.2,B19006.2,5962929303.2
+  relay.dist_pvx10,B24288.3,B4806,B4806.1.2,B4538,B4538.1.2,B4538.3,B4760,B4760.1.2,B4760.3,B4630,B4630.1.2,B4630.3,B4881,B4881.1.2,B4881.3,B5218,B5218.1.2,B5218.3,B18859,B18859.1.2,B18859.3,B19006.1.2,B19006.2
+  relay.dist_pvx2,B24288.3,B4806,B4806.1.2,B4806.3,B4538,B4538.1.2,B4538.3,B4760,B4760.1.2,B4760.3,B4630,B4630.1.2,B4630.3,B4881,B4881.1.2,B4881.3,B5218,B5218.1.2,B5218.3,B18859.1.2
+  relay.dist_pvx3,B24288.3,B4806,B4806.1.2,B4806.3,B4538,B4538.1.2,B4538.3,B4760,B4760.1.2,B4760.3,B4630,B4630.1.2,B4630.3,B4881,B4881.1.2,B4881.3,B5218,B5218.1.2,B5218.3,B18859,B18859.1.2,B18859.3,B19006.1.2,B19006.2,5962929303.2
+  relay.dist_pvx13,B24288.3,B4806,B4806.3,B4538,B4538.1.2,B4538.3,B4760,B4760.1.2,B4760.3,B4630,B4630.1.2,B4630.3,B4881,B4881.3,B5218,B5218.3,B19006.1.2,B19006.2
+  relay.a,B24288.3,B4538,B4538.1.2,B4538.3,B4760,B4760.1.2,B4760.3,B4630,B4630.1.2,B4630.3,B4881,B4881.1.2,B4881.3,B5218,B5218.1.2,B5218.3,B18859,B18859.1.2,B18859.3,B19006.1.2,B19006.2
+  relay.dist_pvx11,B24288.3,B4806,B4806.1.2,B4538,B4538.1.2,B4538.3,B4760,B4760.1.2,B4760.3,B4630,B4630.1.2,B4630.3,B4881,B4881.1.2,B4881.3,B5218,B5218.1.2,B5218.3,B18859,B18859.1.2,B18859.3,B19006.1.2,B19006.2
+  relay.dist_pvx9,B24288.3,B4806,B4806.1.2,B4806.3,B4538,B4538.1.2,B4538.3,B4760,B4760.1.2,B4760.3,B4630,B4630.1.2,B4630.3,B4881,B4881.1.2,B4881.3,B5218,B5218.1.2,B5218.3,B18859,B18859.1.2,B18859.3,B19006.1.2,B19006.2,5962929303.2
+  relay.dist_pvx5,B4806,B4881,B4881.3,B5218,B5218.3,B18859,B18859.1.2,B18859.3,B19006.1.2,B19006.2
+  relay.dist_pvx7,B4806,B4806.1.2,B4538,B4538.1.2,B4760,B4760.1.2,B4630,B4630.1.2,B4881,B4881.1.2,B4881.3,B5218,B5218.1.2,B5218.3,B18859,B18859.1.2,B19006.1.2,B19006.2,5962929303.2
+  relay.dist_pv2,B4806.1.2
+  relay.dist_pv3,B4806.1.2
+Locked Open,Reclosed,Failed to Trip,False Trips,PV Trips,Faults,Uncleared,Tmin,Tmax,Tmean,Tstd
+251,0,40,211,15,25,0,0.044,50.004,3.574,10.798
+Uncleared = 0
+Nfailed   = 40
+Nfalse    = 211
+Npv       = 15
+Tmean = 3.574

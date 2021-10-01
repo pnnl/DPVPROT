@@ -1,0 +1,13 @@
+new Relay.A monitoredobj=Line.L1 monitoredterm=1 switchedobj=Line.L1 switchedterm=1 breakertime=0.032
+~ phasecurve=101 phasetrip=400 tdphase=1
+~ groundcurve=101 groundtrip=200 tdground=1
+~ shots=4 recloseintervals=(2, 2, 5) debugtrace=no
+new Relay.D monitoredobj=Line.L5 monitoredterm=1 switchedobj=Line.L5 switchedterm=1 breakertime=0.032
+~ phasecurve=101 phasetrip=400 tdphase=1
+~ groundcurve=101 groundtrip=200 tdground=1
+~ shots=4 recloseintervals=(2, 2, 5)
+new Relay.B monitoredobj=Line.L4 monitoredterm=1 switchedobj=Line.L4 switchedterm=1 breakertime=0.032 
+~ phasecurve=104 phasetrip=90 tdphase=1 PhaseInst=1000.0
+~ groundcurve=106 groundtrip=90 tdground=1
+~ shots=4 recloseintervals=(2, 2, 5)
+

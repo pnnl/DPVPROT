@@ -1,0 +1,14 @@
+//new Relay.A type=distance monitoredobj=Line.L1 monitoredterm=1 switchedobj=Line.L1 switchedterm=1 breakertime=0.032
+//~ recloseintervals=(2, 2, 5) Reset=0.2 delay=0.07 Mphase=6.0 Mground=6.0
+//new Relay.D type=distance monitoredobj=Line.L5 monitoredterm=1 switchedobj=Line.L5 switchedterm=1 breakertime=0.032
+//~ recloseintervals=(2, 2, 5) Reset=0.2 delay=0.07 Mphase=6.0 Mground=6.0
+//new Relay.B type=distance monitoredobj=Line.L4 monitoredterm=1 switchedobj=Line.L4 switchedterm=1 breakertime=0.032 
+//~ recloseintervals=(2, 2, 5) Reset=10.0 delay=0.01 Mphase=30.0 Mground=30.0 debugtrace=no // reaches through transformer
+
+new Relay.A type=distance monitoredobj=Line.L1 monitoredterm=1 switchedobj=Line.L1 switchedterm=1 breakertime=0.032
+~ recloseintervals=(2, 2, 5) Reset=60.0 delay=0.07 Z1MAG=51.777 Z1ANG=39.186 Z0MAG=55.331 Z0ANG=41.602 mphase=1 mground=2.5
+new Relay.D type=distance monitoredobj=Line.L5 monitoredterm=1 switchedobj=Line.L5 switchedterm=1 breakertime=0.032
+~ recloseintervals=(2, 2, 5) Reset=60.0 delay=0.07 Z1MAG=51.777 Z1ANG=39.186 Z0MAG=55.331 Z0ANG=41.602 mphase=1 mground=2.5
+new Relay.B type=distance monitoredobj=Line.L4 monitoredterm=1 switchedobj=Line.L4 switchedterm=1 breakertime=0.032 
+~ recloseintervals=(2, 2, 5) Reset=60.0 delay=0.01 Mphase=30.0 Mground=30.0 debugtrace=no // reaches through transformer
+

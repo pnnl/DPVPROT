@@ -1,0 +1,20 @@
+batchedit recloser..* enable=no
+
+new relay.Fdr type=distance monitoredobj=line.LN5815900-1 monitoredterm=1 switchedterm=1
+~ recloseintervals=(2, 2, 5) breakertime=0.032 delay=0.07 debugtrace=no
+~ Reset=60.0 Z1MAG=8.393 Z1ANG=31.604 Z0MAG=8.103 Z0ANG=27.592 Mphase=1.0 Mground=1.5 phasetrip=693.3
+
+new relay.a type=distance monitoredobj=line.LN5799561-1 monitoredterm=1 switchedterm=1
+~ recloseintervals=(2, 2, 5) breakertime=0.032 delay=0.01 debugtrace=no
+~ Reset=60.0 Z1MAG=16.280 Z1ANG=29.016 Z0MAG=15.006 Z0ANG=23.033 Mphase=1.0 Mground=1.5 phasetrip=623.6
+
+new relay.b type=distance monitoredobj=line.LN6350556-2 monitoredterm=1 switchedterm=1
+~ recloseintervals=(2, 2, 5) breakertime=0.032 delay=0.01 debugtrace=no
+~ Reset=60.0 Z1MAG=13.962 Z1ANG=34.017 Z0MAG=10.743 Z0ANG=42.326 Mphase=1.0 Mground=1.5 phasetrip=342.9
+
+//new relay.Fdr type=distance monitoredobj=line.LN5815900-1 monitoredterm=1 switchedterm=1
+//~ recloseintervals=(2, 2, 5) breakertime=0.032 Reset=0.2 delay=0.07 Mphase=12.0 Mground=12.0
+//new relay.a like=fdr monitoredobj=line.LN5799561-1 delay=0.01 Mphase=8.0 Mground=8.0
+//new relay.b like=fdr monitoredobj=line.LN6350556-2 delay=0.01 Mphase=8.0 Mground=8.0
+
+

@@ -1,0 +1,11 @@
+// replacing all pvsystem with vccs
+batchedit pvsystem..* enabled=no
+New XYcurve.z_pll npts=3 xarray=[1.0000 -1.98515 0.98531] yarray=[0.0000 0.01485 -0.01469]
+new vccs.PV Phases=3 Bus1=Bg Prated=1650000.00 Vrated=600.00 Ppct=100.00
+~ filter='z_pll' fsample=10000 rmsmode=true imaxpu=1.15 vrmstau=0.01 irmstau=0.05
+edit transformer.Tg kvas=[1650.00 1650.00]
+new relay.pv_PV monitoredobj=vccs.PV switchedobj=vccs.PV
+~  monitoredterm=1 switchedterm=1 type=voltage shots=1 delay=0.0
+~  kvbase=0.600 overvoltcurve=ov1547_3 undervoltcurve=uv1547_3
+calcv
+// Total PV=1650.000 kW

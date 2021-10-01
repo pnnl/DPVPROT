@@ -1,0 +1,108 @@
+C =============================================================================
+C PV1 is 285.00 kW through 300.00 kVA transformer
+C < n 1>< n 2><ref1><ref2><   R><   X><  KV>
+  TRANSFORMER                         XPV1 A 1.0E6
+            9999
+ 159   A                  1.295812.95812.470
+ 2PV1  A                  0.00140.01440.4160
+  TRANSFORMER                         XPV1 B 1.0E6
+            9999
+ 159   B                  1.295812.95812.470
+ 2PV1  B                  0.00140.01440.4160
+  TRANSFORMER                         XPV1 C 1.0E6
+            9999
+ 159   C                  1.295812.95812.470
+ 2PV1  C                  0.00140.01440.4160
+94PV1  A      PV3FLLNORT                                                       3
+94PV1  B                                                                       3
+94PV1  C                                                                       3
+ >DATA  WC          377.
+ >DATA  K          1.414
+ >DATA  GAMMA        46.
+ >DATA  VBASE      416.0
+ >DATA  ANG0         0.0
+ >DATA  WTOTAL    285.E3
+ >DATA  PFANG        0.0
+ >DATA  IRMSMX     787.9
+ >END                   
+C =============================================================================
+C PV2 is 190.00 kW through 225.00 kVA transformer
+C < n 1>< n 2><ref1><ref2><   R><   X><  KV>
+  TRANSFORMER                         XPV2 A 1.0E6
+            9999
+ 13    A                  1.727817.27812.470
+ 2PV2  A                  0.00190.01920.4160
+  TRANSFORMER                         XPV2 B 1.0E6
+            9999
+ 13    B                  1.727817.27812.470
+ 2PV2  B                  0.00190.01920.4160
+  TRANSFORMER                         XPV2 C 1.0E6
+            9999
+ 13    C                  1.727817.27812.470
+ 2PV2  C                  0.00190.01920.4160
+94PV2  A      PV3FLLNORT                                                       3
+94PV2  B                                                                       3
+94PV2  C                                                                       3
+ >DATA  WC          377.
+ >DATA  K          1.414
+ >DATA  GAMMA        46.
+ >DATA  VBASE      416.0
+ >DATA  ANG0         0.0
+ >DATA  WTOTAL    190.E3
+ >DATA  PFANG        0.0
+ >DATA  IRMSMX     525.2
+ >END                   
+C =============================================================================
+C PV3 is 760.00 kW through 1000.00 kVA transformer
+C < n 1>< n 2><ref1><ref2><   R><   X><  KV>
+  TRANSFORMER                         XPV3 A 1.0E6
+            9999
+ 1PVXFMA                  0.38883.887512.470
+ 2PV3  A                  0.00040.00430.4160
+  TRANSFORMER                         XPV3 B 1.0E6
+            9999
+ 1PVXFMB                  0.38883.887512.470
+ 2PV3  B                  0.00040.00430.4160
+  TRANSFORMER                         XPV3 C 1.0E6
+            9999
+ 1PVXFMC                  0.38883.887512.470
+ 2PV3  C                  0.00040.00430.4160
+94PV3  A      PV3FLLNORT                                                       3
+94PV3  B                                                                       3
+94PV3  C                                                                       3
+ >DATA  WC          377.
+ >DATA  K          1.414
+ >DATA  GAMMA        46.
+ >DATA  VBASE      416.0
+ >DATA  ANG0         0.0
+ >DATA  WTOTAL    760.E3
+ >DATA  PFANG        0.0
+ >DATA  IRMSMX    2101.0
+ >END                   
+C =============================================================================
+C PV4 is 475.00 kW through 500.00 kVA transformer
+C < n 1>< n 2><ref1><ref2><   R><   X><  KV>
+  TRANSFORMER                         XPV4 A 1.0E6
+            9999
+ 152   A                  0.77757.775012.470
+ 2PV4  A                  0.00090.00870.4160
+  TRANSFORMER                         XPV4 B 1.0E6
+            9999
+ 152   B                  0.77757.775012.470
+ 2PV4  B                  0.00090.00870.4160
+  TRANSFORMER                         XPV4 C 1.0E6
+            9999
+ 152   C                  0.77757.775012.470
+ 2PV4  C                  0.00090.00870.4160
+94PV4  A      PV3FLLNORT                                                       3
+94PV4  B                                                                       3
+94PV4  C                                                                       3
+ >DATA  WC          377.
+ >DATA  K          1.414
+ >DATA  GAMMA        46.
+ >DATA  VBASE      416.0
+ >DATA  ANG0         0.0
+ >DATA  WTOTAL    475.E3
+ >DATA  PFANG        0.0
+ >DATA  IRMSMX    1313.1
+ >END                   

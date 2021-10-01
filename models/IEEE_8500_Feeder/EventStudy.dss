@@ -1,0 +1,22 @@
+redirect Master.dss
+redirect 8500.edits
+batchedit regcontrol..* enabled=no
+batchedit capcontrol..* enabled=no
+batchedit load..* model=2
+batchedit pvsystem..* enabled=no
+redirect protected_pv.dss
+redirect UtilityRelays.dss
+
+new monitor.Fdr element=Line.LN5815900-1  Terminal=1 residual=yes Mode=32
+new monitor.A   element=Line.LN5799561-1  Terminal=1 residual=yes Mode=32
+new monitor.B   element=Line.LN6350556-2  Terminal=1 residual=yes Mode=32
+
+redirect scripted_fault.dss
+new monitor.flt element=fault.flt mode=32
+set tolerance=0.02
+set mode=dynamic controlmode=time time=(0,0) stepsize=0.001 // number=1000 // 30000
+redirect setnumber.inc
+solve
+export eventlog (events.csv)
+export monitor flt
+export summary

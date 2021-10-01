@@ -1,0 +1,21 @@
+redirect master_nopv.dss
+// information for the reduced segment loads
+solve mode=snap
+show powers elem
+show zone feeder
+
+// information for the reduced impedances
+set loadmult=0.01
+
+batchedit regcontrol..* enabled=no
+batchedit capcontrol..* enabled=no
+batchedit recloser..* enabled=no
+batchedit fuse..* enabled=no
+batchedit pvsystem..* enabled=no
+
+solve mode=faultstudy
+export seqz
+export profile
+show buses
+show elements
+

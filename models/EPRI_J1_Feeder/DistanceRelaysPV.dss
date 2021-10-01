@@ -1,0 +1,27 @@
+redirect DistanceRelays.dss
+new Relay.dist_Pv1 type=distance monitoredobj=Transformer.5865228330A-1ABC monitoredterm=1 switchedobj=vccs.Pv1 switchedterm=1 breakertime=0.032
+~ shots=1 Reset=5.0 delay=0.5 Z1Mag=70.2 Z1Ang=10.0 Z0Mag=70.2 Z0Ang=10.0 Mphase=1.0 Mground=1.0 debugtrace=no distreverse=yes phasetrip=101.6
+new Relay.dist_Pv2 type=distance monitoredobj=Transformer.ExistingSite2 monitoredterm=1 switchedobj=vccs.Pv2 switchedterm=1 breakertime=0.032
+~ shots=1 Reset=5.0 delay=0.5 Z1Mag=105.2 Z1Ang=10.0 Z0Mag=105.2 Z0Ang=10.0 Mphase=1.0 Mground=1.0 debugtrace=no distreverse=yes phasetrip=67.7
+new Relay.dist_Pv3 type=distance monitoredobj=Transformer.ExistingSite3 monitoredterm=1 switchedobj=vccs.Pv3 switchedterm=1 breakertime=0.032
+~ shots=1 Reset=5.0 delay=0.5 Z1Mag=26.3 Z1Ang=10.0 Z0Mag=26.3 Z0Ang=10.0 Mphase=1.0 Mground=1.0 debugtrace=no distreverse=yes phasetrip=270.9
+new Relay.dist_Pv4 type=distance monitoredobj=Transformer.ExistingSite4 monitoredterm=1 switchedobj=vccs.Pv4 switchedterm=1 breakertime=0.032
+~ shots=1 Reset=5.0 delay=0.5 Z1Mag=42.1 Z1Ang=10.0 Z0Mag=42.1 Z0Ang=10.0 Mphase=1.0 Mground=1.0 debugtrace=no distreverse=yes phasetrip=169.3
+new Relay.dist_Pvx2 type=distance monitoredobj=Transformer.B55624-1C monitoredterm=1 switchedobj=vccs.Pvx2 switchedterm=1 breakertime=0.032
+~ shots=1 Reset=5.0 delay=0.5 Z1Mag=12722.8 Z1Ang=10.0 Z0Mag=12722.8 Z0Ang=10.0 Mphase=1.0 Mground=1.0 debugtrace=no distreverse=yes phasetrip=0.6
+new Relay.dist_Pvx3 type=distance monitoredobj=Transformer.B60964-1B monitoredterm=1 switchedobj=vccs.Pvx3 switchedterm=1 breakertime=0.032
+~ shots=1 Reset=5.0 delay=0.5 Z1Mag=13995.1 Z1Ang=10.0 Z0Mag=13995.1 Z0Ang=10.0 Mphase=1.0 Mground=1.0 debugtrace=no distreverse=yes phasetrip=0.5
+new Relay.dist_Pvx5 type=distance monitoredobj=Transformer.B61252-1C monitoredterm=1 switchedobj=vccs.Pvx5 switchedterm=1 breakertime=0.032
+~ shots=1 Reset=5.0 delay=0.5 Z1Mag=6997.5 Z1Ang=10.0 Z0Mag=6997.5 Z0Ang=10.0 Mphase=1.0 Mground=1.0 debugtrace=no distreverse=yes phasetrip=1.0
+new Relay.dist_Pvx7 type=distance monitoredobj=Transformer.B4870-1B monitoredterm=1 switchedobj=vccs.Pvx7 switchedterm=1 breakertime=0.032
+~ shots=1 Reset=5.0 delay=0.5 Z1Mag=13995.1 Z1Ang=10.0 Z0Mag=13995.1 Z0Ang=10.0 Mphase=1.0 Mground=1.0 debugtrace=no distreverse=yes phasetrip=0.5
+new Relay.dist_Pvx9 type=distance monitoredobj=Transformer.B66452-1A monitoredterm=1 switchedobj=vccs.Pvx9 switchedterm=1 breakertime=0.032
+~ shots=1 Reset=5.0 delay=0.5 Z1Mag=13995.1 Z1Ang=10.0 Z0Mag=13995.1 Z0Ang=10.0 Mphase=1.0 Mground=1.0 debugtrace=no distreverse=yes phasetrip=0.5
+new Relay.dist_Pvx10 type=distance monitoredobj=Transformer.B18989-1C monitoredterm=1 switchedobj=vccs.Pvx10 switchedterm=1 breakertime=0.032
+~ shots=1 Reset=5.0 delay=0.5 Z1Mag=13995.1 Z1Ang=10.0 Z0Mag=13995.1 Z0Ang=10.0 Mphase=1.0 Mground=1.0 debugtrace=no distreverse=yes phasetrip=0.5
+new Relay.dist_Pvx11 type=distance monitoredobj=Transformer.6039329105-1C monitoredterm=1 switchedobj=vccs.Pvx11 switchedterm=1 breakertime=0.032
+~ shots=1 Reset=5.0 delay=0.5 Z1Mag=13995.1 Z1Ang=10.0 Z0Mag=13995.1 Z0Ang=10.0 Mphase=1.0 Mground=1.0 debugtrace=no distreverse=yes phasetrip=0.5
+new Relay.dist_Pvx12 type=distance monitoredobj=Transformer.B41861-1B monitoredterm=1 switchedobj=vccs.Pvx12 switchedterm=1 breakertime=0.032
+~ shots=1 Reset=5.0 delay=0.5 Z1Mag=17493.9 Z1Ang=10.0 Z0Mag=17493.9 Z0Ang=10.0 Mphase=1.0 Mground=1.0 debugtrace=no distreverse=yes phasetrip=0.4
+new Relay.dist_Pvx13 type=distance monitoredobj=Transformer.B26203-1C monitoredterm=1 switchedobj=vccs.Pvx13 switchedterm=1 breakertime=0.032
+~ shots=1 Reset=5.0 delay=0.5 Z1Mag=9651.8 Z1Ang=10.0 Z0Mag=9651.8 Z0Ang=10.0 Mphase=1.0 Mground=1.0 debugtrace=no distreverse=yes phasetrip=0.7
