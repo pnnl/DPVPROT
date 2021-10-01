@@ -1,4 +1,4 @@
-# dpvprot
+# Distributed Photovoltaic Protection (DPVProt) Modeling Tools
 
 The code package includes several important functions for design and analysis of new grid protection schemes, for scenarios of distributed photovoltaic (DPV) generation approaching 100% of the peak feeder load, i.e., high-penetration DPV.
 
