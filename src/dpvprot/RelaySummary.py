@@ -53,32 +53,15 @@ NUM_CATS = 3
 
 NUM_PCTS = 11
 
+# default global variables
 ckt_name = None
-if len(sys.argv) > 1:
-    ckt_name = sys.argv[1]
-
 file_root = None
-if len(sys.argv) > 2:
-    file_root = sys.argv[2]
-
 uv_cats = [1, 2, 3]
 pv_pcts = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-if len(sys.argv) > 3:
-    pv_max = float(sys.argv[3])
-    mult = pv_max / 100.0
-    plot_pv_pcts = []
-    for pct in pv_pcts:
-        plot_pv_pcts.append (int(pct*mult))
-else:
-    plot_pv_pcts = pv_pcts
-
+plot_pv_pcts = []
 # index by relay, cat, pct, val
 ndata = np.zeros ((NUM_RELAYS,NUM_CATS,NUM_PCTS,NUM_NDATA))
 tdata = {}
-for i in range(NUM_RELAYS):
-    tdata[i] = {}
-    for j in range(NUM_CATS):
-        tdata[i][j] = {}
 
 def start_pdf (nrows, ncols, suptitle=None):
     lsize = 8
@@ -183,34 +166,54 @@ def find_worst_metrics (rly_idx, cat_idx):
             Tclear = val
     return Nu, Nfail, Nfalse, Tclear
 
-#print('Locked Open,Reclosed,Failed to Trip,False Trips,Faults,Uncleared,Tmin,Tmax,Tmean,Tstd')
-for pct in pv_pcts:
-    for cat in uv_cats:
-        case_name = 'pv_{:d}_cat{:d}'.format (pct, cat)
-        data = pd.read_csv(case_name + '.out', delimiter=',', quotechar='"', keep_default_na=False)
-        store_ndata (data, TOC_IDX, cat-1, int(pct/10))
+if __name__ == '__main__':
+    # finalilze the global variables
+    if len(sys.argv) > 1:
+        ckt_name = sys.argv[1]
+    if len(sys.argv) > 2:
+        file_root = sys.argv[2]
+    if len(sys.argv) > 3:
+        pv_max = float(sys.argv[3])
+        mult = pv_max / 100.0
+        plot_pv_pcts = []
+        for pct in pv_pcts:
+            plot_pv_pcts.append (int(pct*mult))
+    else:
+        for pct in pv_pcts:
+            plot_pv_pcts.append (pct)
+    for i in range(NUM_RELAYS):
+        tdata[i] = {}
+        for j in range(NUM_CATS):
+            tdata[i][j] = {}
 
-for pct in pv_pcts:
-    for cat in [3]:
-        case_name = 'pv_{:d}_cat{:d}_dist'.format (pct, cat)
-        data = pd.read_csv(case_name + '.out', delimiter=',', quotechar='"', keep_default_na=False)
-        store_ndata (data, DIST_IDX, cat-1, int(pct/10))
-#       case_name = 'pv_{:d}_cat{:d}_td21'.format (pct, cat)
-#       data = pd.read_csv(case_name + '.out', delimiter=',', quotechar='"', keep_default_na=False)
-#       store_ndata (data, TD21_IDX, cat-1, int(pct/10))
+    #print('Locked Open,Reclosed,Failed to Trip,False Trips,Faults,Uncleared,Tmin,Tmax,Tmean,Tstd')
+    for pct in pv_pcts:
+        for cat in uv_cats:
+            case_name = 'pv_{:d}_cat{:d}'.format (pct, cat)
+            data = pd.read_csv(case_name + '.out', delimiter=',', quotechar='"', keep_default_na=False)
+            store_ndata (data, TOC_IDX, cat-1, int(pct/10))
 
-make_summary_plot (TOC_IDX, CAT1_IDX, 'TOC Cat I', '_TOC1')
-make_summary_plot (TOC_IDX, CAT2_IDX, 'TOC Cat II', '_TOC2')
-make_summary_plot (TOC_IDX, CAT3_IDX, 'TOC Cat III', '_TOC3')
-make_summary_plot (DIST_IDX, CAT3_IDX, 'Distance Cat III', '_DIST3')
+    for pct in pv_pcts:
+        for cat in [3]:
+            case_name = 'pv_{:d}_cat{:d}_dist'.format (pct, cat)
+            data = pd.read_csv(case_name + '.out', delimiter=',', quotechar='"', keep_default_na=False)
+            store_ndata (data, DIST_IDX, cat-1, int(pct/10))
+    #       case_name = 'pv_{:d}_cat{:d}_td21'.format (pct, cat)
+    #       data = pd.read_csv(case_name + '.out', delimiter=',', quotechar='"', keep_default_na=False)
+    #       store_ndata (data, TD21_IDX, cat-1, int(pct/10))
 
-#make_summary_plot (TD21_IDX, CAT3_IDX, 'TD21 Cat III')
+    make_summary_plot (TOC_IDX, CAT1_IDX, 'TOC Cat I', '_TOC1')
+    make_summary_plot (TOC_IDX, CAT2_IDX, 'TOC Cat II', '_TOC2')
+    make_summary_plot (TOC_IDX, CAT3_IDX, 'TOC Cat III', '_TOC3')
+    make_summary_plot (DIST_IDX, CAT3_IDX, 'Distance Cat III', '_DIST3')
 
-# for TOC1, TOC2, TOC3, DIST3 print the worst Nuncleared, Nfail, Nfalse, Mean Tclear
-Nu1, Nfail1, Nfalse1, Tclear1 = find_worst_metrics (TOC_IDX, CAT1_IDX)
-Nu2, Nfail2, Nfalse2, Tclear2 = find_worst_metrics (TOC_IDX, CAT2_IDX)
-Nu3, Nfail3, Nfalse3, Tclear3 = find_worst_metrics (TOC_IDX, CAT3_IDX)
-NuD, NfailD, NfalseD, TclearD = find_worst_metrics (DIST_IDX, CAT3_IDX)
+    #make_summary_plot (TD21_IDX, CAT3_IDX, 'TD21 Cat III')
 
-print ('{:s}&{:d}&{:d}&{:d}&{:.3f}&{:d}&{:d}&{:d}&{:.3f}&{:d}&{:d}&{:d}&{:.3f}&{:d}&{:d}&{:d}&{:.3f}'.format (ckt_name, 
-  Nu1, Nfail1, Nfalse1, Tclear1, Nu2, Nfail2, Nfalse2, Tclear2, Nu3, Nfail3, Nfalse3, Tclear3, NuD, NfailD, NfalseD, TclearD))
+    # for TOC1, TOC2, TOC3, DIST3 print the worst Nuncleared, Nfail, Nfalse, Mean Tclear
+    Nu1, Nfail1, Nfalse1, Tclear1 = find_worst_metrics (TOC_IDX, CAT1_IDX)
+    Nu2, Nfail2, Nfalse2, Tclear2 = find_worst_metrics (TOC_IDX, CAT2_IDX)
+    Nu3, Nfail3, Nfalse3, Tclear3 = find_worst_metrics (TOC_IDX, CAT3_IDX)
+    NuD, NfailD, NfalseD, TclearD = find_worst_metrics (DIST_IDX, CAT3_IDX)
+
+    print ('{:s}&{:d}&{:d}&{:d}&{:.3f}&{:d}&{:d}&{:d}&{:.3f}&{:d}&{:d}&{:d}&{:.3f}&{:d}&{:d}&{:d}&{:.3f}'.format (ckt_name, 
+      Nu1, Nfail1, Nfalse1, Tclear1, Nu2, Nfail2, Nfalse2, Tclear2, Nu3, Nfail3, Nfalse3, Tclear3, NuD, NfailD, NfalseD, TclearD))

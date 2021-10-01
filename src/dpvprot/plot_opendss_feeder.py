@@ -10,49 +10,53 @@ with supplemental node and link data to describe the OpenDSS components. In this
 a node is as defined by networkx, not as defined by OpenDSS.
 
 The node id is the OpenDSS bus name, and the node ndata is:
-    shunts (str): an array of fully-qualified names of loads, capacitors and DER attached to this node
-    nomkv (float): nominal line-to-line voltage [kV] at this location, if known
-    kw (float): total load kw at this node
-    kvar (float): total load kvar at this node
-    capkvar (float): total kvar of shunt capacitors at this node
-    derkva (float): the total kva of DER (all PV in this project) at this node
-    source (boolean): true only if the circuit source is connected here
-    phase (str): include a, b, and/or c if those phases are present at this node
-    busnum (int): the sequential bus number of this node in the corresponding ATP model
-    x (float): horizontal coordinate of this node location, arbitrary units
-    y (float): vertical coordinate of this node location, arbitrary units
+
+- shunts (str): an array of fully-qualified names of loads, capacitors and DER attached to this node
+- nomkv (float): nominal line-to-line voltage [kV] at this location, if known
+- kw (float): total load kw at this node
+- kvar (float): total load kvar at this node
+- capkvar (float): total kvar of shunt capacitors at this node
+- derkva (float): the total kva of DER (all PV in this project) at this node
+- source (boolean): true only if the circuit source is connected here
+- phase (str): include a, b, and/or c if those phases are present at this node
+- busnum (int): the sequential bus number of this node in the corresponding ATP model
+- x (float): horizontal coordinate of this node location, arbitrary units
+- y (float): vertical coordinate of this node location, arbitrary units
 
 The link data is:
-    eclass (str): the OpenDSS class name, line or transformer
-    ename (str): the OpenDSS instance name, with its class
-    source (str): the node id corresponding to bus1 from OpenDSS
-    target (str): the node id corresponding to bus2 from OpenDSS
+
+- eclass (str): the OpenDSS class name, line or transformer
+- ename (str): the OpenDSS instance name, with its class
+- source (str): the node id corresponding to bus1 from OpenDSS
+- target (str): the node id corresponding to bus2 from OpenDSS
 
 The edata for each line link may contain:
-    r1 (float): positive sequence resistance, in Ohms
-    x1 (float): positive sequence reactance, in Ohms
-    r0 (float): zero sequence resistance, in Ohms
-    x0 (float): zero sequence reactance, in Ohms
-    c1 (float): positive sequence capacitance, in nF
-    c0 (float): zero sequence capacitance, in nF
-    len (float): length of the line, in km. This may be zero for a switch.
-    phases (str): include A, B, and/or C if those phases are present in this link
+
+- r1 (float): positive sequence resistance, in Ohms
+- x1 (float): positive sequence reactance, in Ohms
+- r0 (float): zero sequence resistance, in Ohms
+- x0 (float): zero sequence reactance, in Ohms
+- c1 (float): positive sequence capacitance, in nF
+- c0 (float): zero sequence capacitance, in nF
+- len (float): length of the line, in km. This may be zero for a switch.
+- phases (str): include A, B, and/or C if those phases are present in this link
 
 The edata for each transformer link may contain:
-    phs1 (str): include A, B, and/or C if those phases are present on the primary
-    phs2 (str): include A, B, and/or C if those phases are present on the secondary
-    conn1 (str): w if the primary is wye, d if delta
-    conn2 (str): w if the secondary is wye, d if delta
-    kv1 (float): primary winding kV rating, line-to-neutral for single-phase, line-to-line otherwise
-    kv2 (float): secondary winding kV rating, line-to-neutral for single-phase, line-to-line otherwise
-    kva1 (float): kva rating of the primary
-    kva2 (float): kva rating of the secondary
-    xhl (float): percent reactance
-    r1 (float): equivalent positive sequence resistance, in Ohms from the primary
-    x1 (float): equivalent positive sequence reactance, in Ohms from the primary
-    r0 (float): equivalent zero sequence resistance, in Ohms from the primary
-    x0 (float): equivalent zero sequence reactance, in Ohms from the primary
-    phases (str): include A, B, and/or C if those phases are present in this link
+
+- phs1 (str): include A, B, and/or C if those phases are present on the primary
+- phs2 (str): include A, B, and/or C if those phases are present on the secondary
+- conn1 (str): w if the primary is wye, d if delta
+- conn2 (str): w if the secondary is wye, d if delta
+- kv1 (float): primary winding kV rating, line-to-neutral for single-phase, line-to-line otherwise
+- kv2 (float): secondary winding kV rating, line-to-neutral for single-phase, line-to-line otherwise
+- kva1 (float): kva rating of the primary
+- kva2 (float): kva rating of the secondary
+- xhl (float): percent reactance
+- r1 (float): equivalent positive sequence resistance, in Ohms from the primary
+- x1 (float): equivalent positive sequence reactance, in Ohms from the primary
+- r0 (float): equivalent zero sequence resistance, in Ohms from the primary
+- x0 (float): equivalent zero sequence reactance, in Ohms from the primary
+- phases (str): include A, B, and/or C if those phases are present in this link
 
 Consult the networkx module documentation for more information about the json file format.
 

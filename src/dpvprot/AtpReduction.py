@@ -6,7 +6,7 @@ Must be called from RunReduction.py
 Public Functions:
     :WriteAtp: does the work
 
-Args:
+Arguments:
     atpfile (str): the name of the ATP file to write
     pairs (array): link information passed from RunReduction.py
     retained (set): names of retained buses, passed from RunReduction.py

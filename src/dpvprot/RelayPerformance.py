@@ -47,36 +47,37 @@ def print_summary (data, tcleared, fp=sys.stdout):
     print ('Npv       = {:d}'.format (data['Npv'].sum()), file=fp)
     print ('Tmean = {:.3f}'.format (tcleared.mean()), file=fp)
 
-csv_name = 'events.out'
-if len(sys.argv) > 1:
-    csv_name = sys.argv[1]
+if __name__ == '__main__':
+    csv_name = 'events.out'
+    if len(sys.argv) > 1:
+        csv_name = sys.argv[1]
 
-data = pd.read_csv(csv_name, delimiter=',', quotechar='"', keep_default_na=False)
-#print (data)
-tcleared = data[data['Cleared?']==True]['Tcleared']
+    data = pd.read_csv(csv_name, delimiter=',', quotechar='"', keep_default_na=False)
+    #print (data)
+    tcleared = data[data['Cleared?']==True]['Tcleared']
 
 
-print_summary (data, tcleared)
-rp = open ('dofaults.rpt', 'a+')
-print_summary (data, tcleared, rp)
-rp.close()
+    print_summary (data, tcleared)
+    rp = open ('dofaults.rpt', 'a+')
+    print_summary (data, tcleared, rp)
+    rp.close()
 
-if os.path.exists('dofaults.tex'):
-    rp = open ('dofaults.tex', 'a+')
-else:
-    rp = open ('dofaults.tex', 'w')
-    print ('\\pnnltable{\\begin{tabular}{l|c|c|c|c|c|c|c|c}', file=rp)
-    print ('\\topcopperhline', file=rp)
-    print ('Mode&\\boldmath$N_{U}$&\\boldmath$N_{FL}$&\\boldmath$N_{FS}$&\\boldmath$N_{PV}$&\\boldmath$T_{min}$&\\boldmath$T_{max}$&\\boldmath$T_{avg}$&\\boldmath$T_{std}$\\\\', file=rp)
-    print ('\\midcopperhline', file=rp)
-print ('X&{:d}&{:d}&{:d}&{:d}&{:.3f}&{:.3f}&{:.3f}&{:.3f}\\\\'.format(data[data['Cleared?']==False]['Cleared?'].count(),
-                                                                    data['Nfailed'].sum(),
-                                                                    data['Nfalse'].sum(),
-                                                                    data['Npv'].sum(),
-                                                                    tcleared.min(),
-                                                                    tcleared.max(),
-                                                                    tcleared.mean(),
-                                                                    tcleared.std()), file=rp)
-rp.close()
+    if os.path.exists('dofaults.tex'):
+        rp = open ('dofaults.tex', 'a+')
+    else:
+        rp = open ('dofaults.tex', 'w')
+        print ('\\pnnltable{\\begin{tabular}{l|c|c|c|c|c|c|c|c}', file=rp)
+        print ('\\topcopperhline', file=rp)
+        print ('Mode&\\boldmath$N_{U}$&\\boldmath$N_{FL}$&\\boldmath$N_{FS}$&\\boldmath$N_{PV}$&\\boldmath$T_{min}$&\\boldmath$T_{max}$&\\boldmath$T_{avg}$&\\boldmath$T_{std}$\\\\', file=rp)
+        print ('\\midcopperhline', file=rp)
+    print ('X&{:d}&{:d}&{:d}&{:d}&{:.3f}&{:.3f}&{:.3f}&{:.3f}\\\\'.format(data[data['Cleared?']==False]['Cleared?'].count(),
+                                                                        data['Nfailed'].sum(),
+                                                                        data['Nfalse'].sum(),
+                                                                        data['Npv'].sum(),
+                                                                        tcleared.min(),
+                                                                        tcleared.max(),
+                                                                        tcleared.mean(),
+                                                                        tcleared.std()), file=rp)
+    rp.close()
 
 
