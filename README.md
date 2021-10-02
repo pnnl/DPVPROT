@@ -20,7 +20,7 @@ written to support ATP do not function in the version published to this reposito
 - ConvertPL4.py
 
 Functional versions of these files could be made available to licensed ATP users; 
-please ask the [European EMTP Users Group](https://www.emtp.org for information about ATP licensing.
+please ask the [European EMTP Users Group](https://www.emtp.org) for information about ATP licensing.
 
 There are other script files on this repository that make reference to ATP, but they do not disclose ATP Materials.
 Examples of this include the use of "ATP" or "Atp" in function names, variable names, or file names. The scripts that
