@@ -85,20 +85,42 @@ print ('{:d} points, dt={:.6f}, {:d} points per cycle'.format (npt, dt, ncy))
 
 nrows = 2
 ncols = 1
+
+#png setup
 pWidth = 6.5
 pHeight = pWidth / 1.618 / (0.7 * ncols)
 pHeight = 4.25
+
+# pdf setup
+lsize = 9
+if ncols > 2:
+    lsize = 9
+plt.rc('font', family='serif')
+plt.rc('xtick', labelsize=lsize)
+plt.rc('ytick', labelsize=lsize)
+plt.rc('axes', labelsize=lsize)
+plt.rc('legend', fontsize=lsize)
+pWidth = 6.5
+pHeight = pWidth / 1.618 / (0.7 * ncols)
+pHeight = 4.0
+
 fig, ax = plt.subplots(nrows, ncols, sharex = 'col', figsize=(pWidth, pHeight), constrained_layout=True)
-fig.suptitle ('Site {:s}, MHR_{:s}, Trigger {:s}'.format(site, event, trigger))
+#fig.suptitle ('Site {:s}, MHR_{:s}, Trigger {:s}'.format(site, event, trigger))
+fig.suptitle ('Louisa PV Site Record during C-Ground Fault Detected from Substation')
 
 chanplot (ax[0], 'Voltage',      t, chan, ['VA', 'VB', 'VC'])
-chanplot (ax[1], 'Current (W)',  t, chan, ['IAW', 'IBW', 'ICW'])
+#chanplot (ax[1], 'Current (W)',  t, chan, ['IAW', 'IBW', 'ICW'])
+chanplot (ax[1], 'Current',  t, chan, ['IAW', 'IBW', 'ICW'])
 ax[0].set_ylabel(axLabelVoltage)
 ax[1].set_ylabel(axLabelCurrent)
 ax[nrows-1].set_xlabel ('Seconds')
 
-#png_name = ''
-if len(png_name) > 0:
+png_name = ''
+pdf_name = 'LouisaPV.pdf'
+if len(pdf_name) > 0:
+  plt.savefig (pdf_name, dpi=300)
+  plt.show()
+elif len(png_name) > 0:
   plt.savefig(png_name)
 #  plt.show()
 else:

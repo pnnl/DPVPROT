@@ -542,9 +542,10 @@ def make_plot (do_plot, base_title, png_name, rly):
     elif do_plot == PlotType.REPLICA:
         make_replica_plot (base_title, png_name, rly)
     elif do_plot == PlotType.PDFS:
-        make_pdf_waveforms ('Figure4.pdf', rly)
-        make_pdf_incremental ('Figure5.pdf', rly)
-        make_pdf_signals ('Figure6.pdf', rly)
+        make_distance_plot ('TD21 Relay Model Response to SLGF on Phase C', 'ValidationSignalsLeft.pdf', rly)
+#        make_pdf_waveforms ('Figure4.pdf', rly)
+#        make_pdf_incremental ('Figure5.pdf', rly)
+#        make_pdf_signals ('Figure6.pdf', rly)
 
 sel_base = sys.argv[1]
 settings_name = ''
