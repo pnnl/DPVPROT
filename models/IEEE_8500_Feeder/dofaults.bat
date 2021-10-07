@@ -40,11 +40,11 @@ python CreatePV.py 0.0 0.4 1
 )
 
 if %1% EQU 4 (
-rem Distance with 100% PV, cat IIIr
+rem Distance with 100% PV, cat II
 python -c "fp=open('setnumber.inc','w');print('set number=15000',file=fp);fp.close()"
 copy /y buslist_dist.dat buslist.dat
 copy /y DistanceRelaysPV.dss UtilityRelays.dss
-python CreatePV.py 100.0 0.4 4
+python CreatePV.py 100.0 0.4 2
 )
 
 if %1% EQU 5 (
@@ -56,11 +56,11 @@ python CreatePV.py 0.0 0.4 1
 )
 
 if %1% EQU 6 (
-rem TD21 with 100% PV, cat IIIr
+rem TD21 with 100% PV, cat II
 python -c "fp=open('setnumber.inc','w');print('set number=15000',file=fp);fp.close()"
 copy /y buslist_dist.dat buslist.dat
 copy /y TD21RelaysPV.dss UtilityRelays.dss
-python CreatePV.py 100.0 0.4 4
+python CreatePV.py 100.0 0.4 2
 )
 
 python ..\code\runfaults.py IEEE8500

@@ -7,9 +7,16 @@ copy /y TOCRelays.dss UtilityRelays.dss
 )
 
 if %1% EQU 2 (
-rem TOC with 100% PV
+rem TOC with 100% PV, Cat I
 copy /y buslist_toc.dat buslist.dat
 python ..\code\ScalePV.py 1.0 1
+copy /y TOCRelays.dss UtilityRelays.dss
+)
+
+if %1% EQU 9 (
+rem TOC with 100% PV, Cat III
+copy /y buslist_toc.dat buslist.dat
+python ..\code\ScalePV.py 1.0 3
 copy /y TOCRelays.dss UtilityRelays.dss
 )
 
@@ -21,7 +28,7 @@ copy /y DistanceRelays.dss UtilityRelays.dss
 )
 
 if %1% EQU 4 (
-rem Distance with 100% PV
+rem Distance with 100% PV, Cat III
 copy /y buslist_dist.dat buslist.dat
 python ..\code\ScalePV.py 1.0 3
 copy /y DistanceRelaysPV.dss UtilityRelays.dss
@@ -35,7 +42,7 @@ copy /y TD21Relays.dss UtilityRelays.dss
 )
 
 if %1% EQU 6 (
-rem TD21 with 100% PV
+rem TD21 with 100% PV, Cat III
 copy /y buslist_dist.dat buslist.dat
 python ..\code\ScalePV.py 1.0 3
 copy /y TD21RelaysPV.dss UtilityRelays.dss
