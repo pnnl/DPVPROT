@@ -7,10 +7,10 @@ The code package includes several important functions for design and analysis of
 - Tools to determine distance relay settings on distribution systems.
 - Tools to predict the performance of time-domain, incremental distance relay algorithms.
 
-## ATP Materials
+## ATP
 
 The Alternative Transients Program (ATP) was used in development of this project. Some of the script files
-written to support ATP do not function in the version published to this repository, including:
+require an ATP license and installation to run. These files include:
 
 - AtpLoopCaps.py
 - AtpLoopFaults.py
@@ -19,10 +19,9 @@ written to support ATP do not function in the version published to this reposito
 - CheckReducedLoads.py
 - ConvertPL4.py
 
-Functional versions of these files could be made available to licensed ATP users; 
-please ask the [European EMTP Users Group](https://www.emtp.org) for information about ATP licensing.
+Please ask the [European EMTP Users Group](https://www.emtp.org) for information about ATP licensing.
 
-There are other script files on this repository that make reference to ATP, but they do not disclose ATP Materials.
+There are other script files on this repository that make reference to ATP, but they do not require ATP to run.
 Examples of this include the use of "ATP" or "Atp" in function names, variable names, or file names. The scripts that
 load simulation data from ATP are actually loading files in standard COMTRADE format.
 
@@ -42,4 +41,4 @@ Reference herein to any specific commercial product, process, or service by trad
      UNITED STATES DEPARTMENT OF ENERGY
       under Contract DE-AC05-76RL01830
 
-Copyright 2021, Battelle Memorial Institute
+Copyright 2021-25, Battelle Memorial Institute
