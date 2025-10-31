@@ -7,6 +7,8 @@ The code package includes several important functions for design and analysis of
 - Tools to determine distance relay settings on distribution systems.
 - Tools to predict the performance of time-domain, incremental distance relay algorithms.
 
+See the project's [report](https://doi.org/10.2172/1834373) and [paper](https://www.osti.gov/biblio/1821480) for background information. A local copy of the conference paper is at _doc/paper.pdf_.
+
 ## ATP
 
 The Alternative Transients Program (ATP) was used in development of this project. Some of the script files
